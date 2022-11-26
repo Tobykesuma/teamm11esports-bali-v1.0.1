@@ -5,13 +5,13 @@ import {
 } from 'react-router-dom'
 import Home from '../pages/Home'
 
-const routers = () => {
+const Routers = () => {
   return (
     <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='*' element={} />
+        {/* <Route path='*' element={} /> */}
     </Routes>
   )
 }
 
-export default routers
+export default Routers

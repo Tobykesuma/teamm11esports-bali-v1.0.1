@@ -89,7 +89,28 @@ section {
   padding: 50px 0px;
 }
 
+.section-bg {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.section-bg::after {
+  content: url('../src/assets/2022/images/title-underline.png');
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+span {
+  display: inline-block;
+  color: var(--marigold); 
+}
+
+.img-holder  {
+  aspect-ratio: 800 / 470;
+}
 
 /* 
 .skewBg {
