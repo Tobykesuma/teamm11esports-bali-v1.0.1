@@ -1,3 +1,27 @@
+.live-match {
+    z-index: 1;
+}
+
+.live-match::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    background-image: url('../assets//2022//images/section-wrapper-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.live-match::before {
+    height: 100%;
+}
+
+
 .section-title {
     margin-block-end: 90px;
+     color: white;
 }

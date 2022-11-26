@@ -6,7 +6,7 @@ import {
 } from 'reactstrap'
 import '../../style/livestreaming.css'
 import imageData from '../../data/imageData'
-
+import Match from './Match'
 
 const LiveStreaming = () => {
   return (
@@ -18,9 +18,13 @@ const LiveStreaming = () => {
                         Watch Live <span className='span'>Match</span>
                     </h2>
                     <figure className='live-match-banner img-holder' style={{width: '800', height: '470'}}>
-                        <img src={imageData.LiveMatchBanner} style={{width: '800', height: '470', loading='lazy'}} className='img-live-cover' alt='Live Match Video' />
+                        <img src={imageData.LiveMatchBanner} style={{width: '800', height: '470', }} className='img-live-cover' alt='Live Match Video' />
                     </figure>
+                    
+                    <Match />
                 </Col>
+
+                
             </Row>
         </Container>
     </section>
