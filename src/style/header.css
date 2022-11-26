@@ -1,0 +1,154 @@
+.header-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+}
+
+.header-bg {
+    background-color: var(--raisin-black-2);
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: var(--shadow-1);
+}
+
+.header-top .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header-top .navbar-logo img {
+    width: 160px !important;
+    height: auto;
+    margin-top: 20px;
+}
+
+.header-top .nav-menu a {
+    color: white;
+    font-family: var(--font-Sans-Pro);
+    letter-spacing: 0.05em;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header-top .nav-menu a:hover {
+    color: var(--marigold);
+    transition: var(--transition);
+    
+}
+
+.header-top .nav-menu {
+    display: flex;
+}
+
+.header-top .nav-links li, ul {
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.header-top .nav-links {
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/* BreakPoints */
+
+@media screen and (max-width: 1200px) {
+    .header-top {
+        max-width: 100%;
+        background-color: var(--raisin-black-2);
+    }
+
+    .header-top .navbar {
+        max-width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: 1000px;
+        top: 150px;
+        flex-direction: column;
+        background-color: var(--raisin-black-2);
+        width: 100%;
+        height: 100vh;
+        z-index: 999;
+        text-align: center;
+        transition: .3s ease-in-out;
+        align-items: center;
+        height: 100%;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-links {
+        margin: 1.6rem 0;
+    }
+
+    .header-top .nav-menu a {
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .header-top .navbar-logo img {
+        width: 200px !important;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .nav-links {
+        margin: 0.5rem;
+    }
+
+    .header-top .navbar-logo img {
+        width: 160px !important;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .nav-menu a{
+        margin-top: 0 !important;
+    }
+
+    .nav-menu {
+        left: -450px;
+    }
+
+    .header-top .nav-menu a {
+        font-size: 18px;
+    }
+
+    .header-top  {
+        margin-top: 0;
+    }
+}
+
+

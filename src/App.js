@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
-import { PropagateLoader } from "react-spinners";
+import React, { useEffect, useState } from "react";
+import { PulseLoader } from "react-spinners";
+import Layout from "./components/layout/layout";
 
 function App() {
   // Loading Pages //
@@ -18,7 +19,12 @@ function App() {
       <div className="main-app">
         {
           loading ? (
-            <PropagateLoader size={10} color={'#000'} loading={loading} style={{display: 'flex', justifyContent: 'center', textAlign: 'center', height: '100vh', width: '100%', alignItems: 'center'}} />
+            <PulseLoader size={10} color={'#fff'} loading={loading} style={{display: 'flex', justifyContent: 'center', textAlign: 'center', height: '100vh', width: '100%', alignItems: 'center'}} />
+          ) : (
+            <>
+
+              <Layout /> 
+            </>
           )
         }
       </div>
