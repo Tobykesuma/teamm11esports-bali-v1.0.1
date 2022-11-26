@@ -13,7 +13,7 @@ const LiveStreaming = () => {
     <section className='section live-match' id='live'>
         <Container>
             <Row>
-                <Col lg='6' md='6'>
+                
                     <h2 className='section-title section-bg'>
                         Watch Live <span className='span'>Match</span>
                     </h2>
@@ -22,7 +22,7 @@ const LiveStreaming = () => {
                     </figure>
                     
                     <Match />
-                </Col>
+               
 
                 
             </Row>
