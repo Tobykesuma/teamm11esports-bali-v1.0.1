@@ -8,7 +8,6 @@ import {
     ListGroup,
     ListGroupItem
 } from 'reactstrap'
-import {MdCopyright} from 'react-icons/md'
 import {ImLocation2} from 'react-icons/im'
 import {BsFillTelephoneOutboundFill} from 'react-icons/bs'
 import {TfiEmail} from 'react-icons/tfi'
