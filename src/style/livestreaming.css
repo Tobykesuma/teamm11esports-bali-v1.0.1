@@ -1,5 +1,7 @@
 .live-match {
     z-index: 1;
+    position: relative;
+    background-color: white;
 }
 
 .live-match::before {
@@ -17,7 +19,19 @@
 }
 
 .live-match::before {
+    height: 72%;
+}
+
+.live-match-banner {
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cover img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 
