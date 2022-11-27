@@ -2,6 +2,7 @@ import React from 'react'
 import imageData from '../../data/imageData'
 import { Link } from 'react-router-dom'
 import {
+    Container,
     Row,
     Col,
     ListGroup,
@@ -14,7 +15,6 @@ import {TfiEmail} from 'react-icons/tfi'
 import {IoIosTime} from 'react-icons/io'
 import {BsArrowRightShort} from 'react-icons/bs'
 import '../../style/footer.css'
-import {Container} from 'reactstrap'
 
 
 
@@ -59,6 +59,14 @@ const Footer = () => {
             path: '/live-streaming',
             display: 'Live Stream',
         },
+        {
+            path: '/news',
+            display: 'News',
+        },
+        {
+            path: '/',
+            display: 'Live Stream',
+        },
         
     ];
 
@@ -95,7 +103,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <p className='footer-subtext'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus consectetur ipsum beatae eaque temporibus molestias, expedita cumque recusandae, dolores architecto porro error velit veritatis! Possimus sit nobis velit impedit nisi.
+                        Berdiri pada awal April 2021 Team M11 Esports Divisi Dota 2 berhasil meraih beberapa kompetisi tingkat Indonesia dan International. Pada bulan Oktober 2021 Team M11 Esports menambah Divisi baru yaitu PUBGM Ladies. Dan pada tahun 2022 Team M11 Esports membuka 2 Divisi yaitu MLBB dan Valorant.
                     </p>
                 </Col>
 
@@ -104,7 +112,7 @@ const Footer = () => {
                         <ListGroup>
                             {
                                 quickLinksFooter.map((item, index) => (
-                                    <ListGroupItem key={index} className='p-0 mt-4 footer-links'>
+                                    <ListGroupItem key={index} className='p-0 mt-3 footer-links'>
                                         <Link to={item.path}>{item.display}</Link>
                                     </ListGroupItem>
                                 ))
@@ -114,11 +122,11 @@ const Footer = () => {
                 </Col>
                 
                 <Col lg='2' md='4' sm='6'>
-                    <div className='mb-4 pt-5'>
+                    <div className='mb-4 pt-5 footer-div'>
                         <ListGroup>
                             {
                                 quickLinksFooter3.map((item, index) => (
-                                    <ListGroupItem key={index} className='p-0 mt-4 footer-links'>
+                                    <ListGroupItem key={index} className='p-0 mt-3 footer-links'>
                                         <Link to={item.path}>{item.display}</Link>
                                     </ListGroupItem>
                                 ))
@@ -128,11 +136,11 @@ const Footer = () => {
                 </Col>
 
                 <Col lg='2' md='4' sm='6'>
-                    <div className='mb-4 pt-5'>
+                    <div className='mb-4 pt-5 footer-div'>
                         <ListGroup>
                             {
                                 quickLinksFooter2.map((item, index) => (
-                                    <ListGroupItem key={index} className='p-0 mt-4 footer-links'>
+                                    <ListGroupItem key={index} className='p-0 mt-3 footer-links'>
                                         <Link to={item.path}>{item.display}</Link>
                                     </ListGroupItem>
                                 ))
@@ -142,7 +150,7 @@ const Footer = () => {
                 </Col>
 
                 <Col lg='2' md='4' sm='6'>
-                    <div className='mb-4 pt-5'>
+                    <div className='mb-4 pt-5 footer-div'>
                         <p className='footer-info'>
                             <a href='' target='__blank'>
                                 <ImLocation2 />

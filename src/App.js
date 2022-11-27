@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PulseLoader } from "react-spinners";
 import Layout from "./components/layout/layout";
+import BacktoTop from "./components/ui/BacktoTop";
 
 function App() {
   // Loading Pages //
@@ -22,7 +23,7 @@ function App() {
             <PulseLoader size={10} color={'#fff'} loading={loading} style={{display: 'flex', justifyContent: 'center', textAlign: 'center', height: '100vh', width: '100%', alignItems: 'center'}} />
           ) : (
             <>
-
+              <BacktoTop />
               <Layout /> 
             </>
           )
