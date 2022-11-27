@@ -9,12 +9,15 @@ import {
     ListGroupItem
 } from 'reactstrap'
 import {ImLocation2} from 'react-icons/im'
-import {BsFillTelephoneOutboundFill} from 'react-icons/bs'
 import {TfiEmail} from 'react-icons/tfi'
-import {IoIosTime} from 'react-icons/io'
-import {BsArrowRightShort} from 'react-icons/bs'
+import {
+    AiFillFacebook,
+    AiFillTwitterSquare,
+    AiFillYoutube,
+    AiOutlineInstagram
+} from 'react-icons/ai'
 import '../../style/footer.css'
-
+import {IoLogoYoutube} from 'react-icons/io'
 
 
 
@@ -104,6 +107,21 @@ const Footer = () => {
                     <p className='footer-subtext'>
                         Berdiri pada awal April 2021 Team M11 Esports Divisi Dota 2 berhasil meraih beberapa kompetisi tingkat Indonesia dan International. Pada bulan Oktober 2021 Team M11 Esports menambah Divisi baru yaitu PUBGM Ladies. Dan pada tahun 2022 Team M11 Esports membuka 2 Divisi yaitu MLBB dan Valorant.
                     </p>
+                    <div className='footer-icons'>
+                        <a href='' target='__blank'>
+                            <AiFillFacebook />
+                        </a>
+                        <a href='' target='__blank'>
+                            <AiFillTwitterSquare />
+                        </a>
+                        <a href='' target='__blank'>
+                            <AiOutlineInstagram />
+                        </a>
+                        <a href='https://www.youtube.com/@TeamM11ESports' target='__blank'>
+                            <IoLogoYoutube />
+                        </a>
+                        
+                    </div>
                 </Col>
 
                 <Col lg='2' md='4' sm='6'>
