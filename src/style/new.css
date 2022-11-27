@@ -1,0 +1,26 @@
+.news-list {
+    display: grid;
+    gap: 50px;
+}
+
+.news-card .card-banner {
+    margin-block-end: 30px;
+}
+
+.news-card .card-meta-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.news-card .card-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--quick-silver);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+

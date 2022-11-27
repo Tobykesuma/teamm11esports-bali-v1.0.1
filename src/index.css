@@ -103,6 +103,17 @@ section {
   transform: translateX(-50%);
 }
 
+.section-subtext {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: 65ch;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.8;
+}
+
+
 span {
   display: inline-block;
   color: var(--marigold); 
@@ -111,6 +122,15 @@ span {
 .img-holder  {
   aspect-ratio: 800 / 470;
 }
+
+.section-title {
+  margin-block-end: 90px;
+  color: white;
+  font-family: var(--font-Sans-Pro);
+  font-weight: 700;
+  margin-top: 50px;
+}
+
 
 /* 
 .skewBg {
