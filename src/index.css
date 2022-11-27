@@ -119,9 +119,9 @@ span {
   color: var(--marigold); 
 }
 
-.img-holder  {
+/* .img-holder  {
   aspect-ratio: 800 / 470;
-}
+} */
 
 .section-title {
   margin-block-end: 90px;
