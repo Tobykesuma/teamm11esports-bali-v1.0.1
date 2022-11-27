@@ -1,0 +1,49 @@
+.newsletter {
+    margin-block-end: -200px;
+}
+
+.newsletter-card {
+    background-color: var(--raisin-black-2);
+    padding: 40px 15px;
+    margin-block-start: -55px;
+    border-radius: 80px;
+    z-index: 1;
+}
+
+
+.newsletter .input-wrapper {
+    max-width: 1170px;
+    margin-inline: auto;
+    margin-block-end: 10px;
+}
+
+.newsletter .email-field {
+    color: white;
+    font-weight: 500;
+    padding: 17px 45px;
+    padding-inline-end: 20px;
+    outline: none;
+    font-size: 2rem;
+    width: 600px;
+    border-radius: 50px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin-inline: auto;
+    z-index: 2;
+}
+
+
+.newsletter .newsletter-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    color: var(--marigold);
+
+}
+

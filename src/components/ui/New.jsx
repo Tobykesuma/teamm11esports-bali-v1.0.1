@@ -19,7 +19,7 @@ const New = () => {
         <Container>
             <Row>
                 <Col lg='12'>
-                    <h2 className='section-title section-bg'>
+                    <h2 className='section-title2 section-bg'>
                         Latest News & <span className='span'>Articles</span>
                     </h2>
                     <p className='section-subtext'>

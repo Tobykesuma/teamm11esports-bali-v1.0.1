@@ -131,9 +131,26 @@ span {
   margin-top: 50px;
 }
 
+.section-title2 {
+  margin-block-end: 90px;
+  color: var(--raisin-black-2);
+  font-family: var(--font-Sans-Pro);
+  font-weight: 700;
+  margin-top: 50px;
+}
 
-/* 
-.skewBg {
+.section-title3 {
+  text-transform: uppercase;
+  margin-block-end: 90px;
+  font-family: var(--font-Sans-Pro);
+  font-weight: 700;
+  margin-left: 50px;
+  color: white;
+}
+
+
+
+/* .skewBg {
   position: relative;
   z-index: 1;
 }
