@@ -23,15 +23,9 @@ const LiveStreaming = () => {
                         <img src= {imageData.LiveMatchBanner} style={{width: '800', height: '470', }} className='img-live-cover' alt='Live Match Video' />
                     </figure>
                     
-<<<<<<< HEAD
                     
-                </Col>
-            
-=======
-                    <Match />
                
-
->>>>>>> f0b1fc8e3225a4b94a95c433564aceb68d08e072
+            
                 
             </Row>
         </Container>
