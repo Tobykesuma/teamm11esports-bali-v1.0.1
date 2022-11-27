@@ -38,4 +38,6 @@
 .section-title {
     margin-block-end: 90px;
      color: white;
+     font-family: var(--font-Sans-Pro);
+     font-weight: 700;
 }
