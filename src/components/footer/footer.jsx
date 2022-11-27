@@ -170,7 +170,7 @@ const Footer = () => {
                     <Col lg='12' md='4' sm='12'>
                         <div className='footer-bottom align-items-center justify-content-between'>
                             <p className='footer-bottom-desc align-items-center gap-1 justify-content-between'>
-                                <MdCopyright />TEAM M11 ESPORTS BALI {year}
+                                &copy; TEAM M11 ESPORTS BALI {year}
                             </p>
 
                             <p className='footer-bottom-desc align-items-center gap-1'>
