@@ -19,7 +19,7 @@ const Home = () => {
          {/* News & Blogs  */}
          <New />
          {/* Newsletter */}
-         <NewsLetters />
+         {/* <NewsLetters /> */}
     </Helmet>
   )
 }

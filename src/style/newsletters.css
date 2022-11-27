@@ -18,7 +18,7 @@
 }
 
 .newsletter .email-field {
-    color: white;
+    color: black;
     font-weight: 500;
     padding: 17px 45px;
     padding-inline-end: 20px;
@@ -38,12 +38,4 @@
 }
 
 
-.newsletter .newsletter-icons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
-    color: var(--marigold);
-
-}
 

@@ -15,7 +15,7 @@ const NewsLetters = () => {
     <section className='section newsletter' id='newsletter'>
         <Container>
             <Row>
-                <Col>
+                <Col lg='12'>
                     <div className='newsletter-card'>
                         <h2 className='section-title3'>
                             Our <span className='span'>Newsletter</span>

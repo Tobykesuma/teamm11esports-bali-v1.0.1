@@ -64,8 +64,8 @@ const Footer = () => {
             display: 'News',
         },
         {
-            path: '/',
-            display: 'Live Stream',
+            path: '/privacy-policy',
+            display: 'Privacy Policy',
         },
         
     ];

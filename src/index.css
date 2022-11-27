@@ -148,6 +148,10 @@ span {
   color: white;
 }
 
+input {
+  width: 100%;
+  cursor: pointer;
+}
 
 
 /* .skewBg {
