@@ -63,7 +63,7 @@ const Header = () => {
                         <Link to='/partners' onClick={closeMenu}>Partners</Link>
                     </li>
                     <li className='nav-links'>
-                        <a href='https://www.tokopedia.com/teamm11esports' onClick={closeMenu}>Store</a>
+                        <a href='https://www.tokopedia.com/teamm11esports' onClick={closeMenu} target='__blank'>Store</a>
                     </li>
                 </ul>
             </nav>
