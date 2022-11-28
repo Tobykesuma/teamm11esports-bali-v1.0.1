@@ -22,7 +22,7 @@ const New = () => {
                     <h2 className='section-title2 section-bg'>
                         Latest News & <span className='span'>Articles</span>
                     </h2>
-                    <p className='section-subtext'>
+                    <p className='section-subtext2'>
                         Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin Strategic
                     </p>
 

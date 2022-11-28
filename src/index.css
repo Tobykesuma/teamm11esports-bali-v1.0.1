@@ -113,6 +113,16 @@ section {
   line-height: 1.8;
 }
 
+.section-subtext2 {
+  color: var(--raisin-black-2) ;
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: 65ch;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.8;
+}
+
 
 span {
   display: inline-block;
