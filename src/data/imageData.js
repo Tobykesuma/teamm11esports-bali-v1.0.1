@@ -6,6 +6,10 @@ import TeamImages2 from '../assets/2022/images/live-match-player-2.png'
 import BlogImages from '../assets/2022/blogs/blog-1.jpg'
 import ShopBG from '../assets/2022/images/shop-bg.jpeg'
 
+// Background Games //
+import Dota2Bg from '../assets/2022/images/dota.jpeg'
+import PUBGMBg from '../assets/2022/images/pubg.jpeg'
+import ValotantBg from '../assets/2022/images/valorant-bg.jpeg'
 
 
 // Live Match Image //

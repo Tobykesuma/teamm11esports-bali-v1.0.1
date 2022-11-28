@@ -22,16 +22,16 @@ const New = () => {
                     <h2 className='section-title2 section-bg'>
                         Latest News & <span className='span'>Articles</span>
                     </h2>
-                    <p className='section-subtext2'>
-                        Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin Strategic
+                    <p className='section-subtext-news'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse debitis aperiam illum fuga itaque pariatur architecto inventore placeat minus provident laudantium natus eius, nulla doloremque, magni fugit cupiditate maxime.
                     </p>
 
                     <ul className='news-list'>
                         <li>
                             <div className='news-card'>
-                                <figure className='card-banner img-holder' style={{width: '400', height: '290'}}>
-                                    <img src={imageData.BlogImages} alt='' className='img-cover' />
-                                </figure>
+                                <div className='card-banner img-holder' style={{width: 390, height: 290}}>
+                                    <img src={imageData.BlogImages} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
 
                                 <div className='news-card-content'>
                                     <ul className='card-meta-list'>
@@ -47,11 +47,11 @@ const New = () => {
                                     </ul>
 
                                     <h3 className='card-title'>
-                                        <a href='#'>Shooter Action Video</a>
+                                        Shooter Action Video
                                     </h3>
 
                                     <p className='card-text'>
-                                        Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse debitis aperiam illum fuga itaque pariatur architecto inventore placeat minus provident laudantium natus eius, nulla doloremque, magni fugit cupiditate maxime.
                                     </p>
                                     <a href='#' className='card-link'>
                                         <span className='span'>Read More</span>
@@ -63,9 +63,9 @@ const New = () => {
 
                         <li>
                             <div className='news-card'>
-                                <figure className='card-banner img-holder' style={{width: '400', height: '290'}}>
-                                    <img src={imageData.BlogImages} alt='' className='img-cover' />
-                                </figure>
+                                <div className='card-banner' style={{width: 390, height: 290}}>
+                                    <img src={imageData.BlogImages} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
 
                                 <div className='news-card-content'>
                                     <ul className='card-meta-list'>
@@ -81,11 +81,11 @@ const New = () => {
                                     </ul>
 
                                     <h3 className='card-title'>
-                                        <a href='#'>Shooter Action Video</a>
+                                        Shooter Action Video
                                     </h3>
 
                                     <p className='card-text'>
-                                        Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse debitis aperiam illum fuga itaque pariatur architecto inventore placeat minus provident laudantium natus eius, nulla doloremque, magni fugit cupiditate maxime.
                                     </p>
                                     <a href='#' className='card-link'>
                                         <span className='span'>Read More</span>
@@ -97,9 +97,9 @@ const New = () => {
 
                         <li>
                             <div className='news-card'>
-                                <figure className='card-banner img-holder' style={{width: '400', height: '290'}}>
-                                    <img src={imageData.BlogImages} alt='' className='img-cover' />
-                                </figure>
+                                <div className='card-banner' style={{width: 390, height: 290}}>
+                                    <img src={imageData.BlogImages} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
 
                                 <div className='news-card-content'>
                                     <ul className='card-meta-list'>
@@ -115,11 +115,11 @@ const New = () => {
                                     </ul>
 
                                     <h3 className='card-title'>
-                                        <a href='#'>Shooter Action Video</a>
+                                        Shooter Action Video
                                     </h3>
 
                                     <p className='card-text'>
-                                        Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse debitis aperiam illum fuga itaque pariatur architecto inventore placeat minus provident laudantium natus eius, nulla doloremque, magni fugit cupiditate maxime.
                                     </p>
                                     <a href='#' className='card-link'>
                                         <span className='span'>Read More</span>

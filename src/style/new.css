@@ -1,19 +1,21 @@
 .news {
     background-color: white;
-    position: relative;
-    z-index: 1;
 }
 
+.news .section-subtext-news {
+    color: var(--dim-gray);
+    margin-block: 50px 60px;
+    text-align: center;
+    align-items: center;
+}
 
 .news-list {
-    display: grid;
+    display: flex;
     gap: 50px;
 }
 
 .news-card .card-banner {
-    margin-block-end: 30px;
-    display: flex;
-    
+    margin-block-end: 30px; 
 }
 
 .news-card .card-meta-list {
@@ -51,5 +53,31 @@
     transition: var(--transition);
 }
 
+
+/* BreakPoints */
+@media only screen and (max-width: 768px){
+    .news-list {
+        grid-template-columns:repeat(1, 1fr);
+        justify-content: center;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .news .news-card img {
+        width: 350px !important;
+        height: 300px !important;
+    }
+
+    .news .card-banner {
+        width: 350px !important;
+        height: 300px !important;
+        padding-right: 20px !important;
+    }
+
+    .news-card {
+        padding-right: 35px !important;
+    }
+}
 
 

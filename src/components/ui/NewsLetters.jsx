@@ -17,7 +17,7 @@ const NewsLetters = () => {
             <Row>
                 <Col lg='12'>
                     <div className='newsletter-card'>
-                        <h2 className='section-title3'>
+                        <h2>
                             Our <span className='span'>Newsletter</span>
                         </h2>
 
