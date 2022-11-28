@@ -26,13 +26,13 @@ const Store = () => {
                         <li className='scrollbar-item'>
                             <div className='shop-card' style={{width: 300, height: 450}}>
                                 <div className='card-banner'>
-                                    <img src={ShopData.Products01} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
+                                    <img src={ShopData.Products02} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
                                 </div>
 
                                 <div className='card-content'>
-                                    <a href='' className='card-badge skewBg'>Jersey</a>
+                                    <a href='https://www.tokopedia.com/teamm11esports' target='__blank' className='card-badge skewBg'>Jersey</a>
                                     <h3 className='card-content-title'>
-                                        Man Black Jersey
+                                        Ladies Pink Jersey
                                     </h3>
 
                                     <div className='card-wrapper'>
@@ -50,13 +50,13 @@ const Store = () => {
                         <li className='scrollbar-item'>
                             <div className='shop-card' style={{width: 300, height: 450}}>
                                 <div className='card-banner'>
-                                    <img src={ShopData.Products01} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
+                                    <img src={ShopData.Products03} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
                                 </div>
 
                                 <div className='card-content'>
-                                    <a href='' className='card-badge skewBg'>Jersey</a>
+                                    <a href='https://www.tokopedia.com/teamm11esports' target='__blank' className='card-badge skewBg'>Sweat Pants</a>
                                     <h3 className='card-content-title'>
-                                        Man Black Jersey
+                                        Sweat Pants Team
                                     </h3>
 
                                     <div className='card-wrapper'>
@@ -74,13 +74,13 @@ const Store = () => {
                         <li className='scrollbar-item'>
                             <div className='shop-card' style={{width: 300, height: 450}}>
                                 <div className='card-banner'>
-                                    <img src={ShopData.Products01} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
+                                    <img src={ShopData.Products05} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
                                 </div>
 
                                 <div className='card-content'>
-                                    <a href='' className='card-badge skewBg'>Jersey</a>
+                                    <a href='https://www.tokopedia.com/teamm11esports' target='__blank' className='card-badge skewBg'>Hoodie</a>
                                     <h3 className='card-content-title'>
-                                        Man Black Jersey
+                                        Black Hoodie Team
                                     </h3>
 
                                     <div className='card-wrapper'>
@@ -98,11 +98,11 @@ const Store = () => {
                         <li className='scrollbar-item'>
                             <div className='shop-card' style={{width: 300, height: 450}}>
                                 <div className='card-banner'>
-                                    <img src={ShopData.Products01} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
+                                    <img src={ShopData.Products04} style={{width: 300, height: 260}} alt='' className='products-image img-holder img-cover' />
                                 </div>
 
                                 <div className='card-content'>
-                                    <a href='' className='card-badge skewBg'>Jersey</a>
+                                    <a href='https://www.tokopedia.com/teamm11esports' target='__blank' className='card-badge skewBg'>Jersey</a>
                                     <h3 className='card-content-title'>
                                         Man Black Jersey
                                     </h3>

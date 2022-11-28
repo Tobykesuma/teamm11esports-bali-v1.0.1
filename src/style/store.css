@@ -19,7 +19,7 @@
 .shop-card .card-content {
     position: relative;
     padding: 25px;
-    padding-block-start: 40px;
+    /* padding-block-start: 40px; */
 }
 
 .shop-card .card-badge {
@@ -27,6 +27,10 @@
     top: -30px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.shop-card .card-badge:hover {
+    color: white;
 }
 
 .shop-card .card-content-title {
