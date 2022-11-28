@@ -7,6 +7,9 @@ import {
 import '../../style/livestreaming.css'
 import imageData from '../../data/imageData'
 import Match from './Match'
+import ReactPlayer from 'react-player'
+
+
 
 const LiveStreaming = () => {
   return (
@@ -18,9 +21,9 @@ const LiveStreaming = () => {
                     <h2 className='section-title section-bg'>
                         Watch Live <span className='span'>Match</span>
                     </h2>
-                    <figure className='live-match-banner img-holder' style={{width: '800', height: '470'}}>
-                        <img src= {imageData.LiveMatchBanner} style={{width: '800', height: '470', }} className='img-live-cover' alt='Live Match Video' />
-                    </figure>
+                    <div className='live-match-box'>
+                        <ReactPlayer className='live-match-box2' url='https://www.youtube.com/watch?v=fSIf9pEvvdA' height={500} width={1280} />
+                    </div>
                     <Match />
                 </Col>
             </Row>

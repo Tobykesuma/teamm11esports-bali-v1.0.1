@@ -9,7 +9,7 @@ import Store from '../components/ui/Store'
 
 const Home = () => {
   return (
-    <Helmet title='Home'>
+    <Helmet title='Homepage'>
         {/* Hero */}
 
 
@@ -20,7 +20,7 @@ const Home = () => {
          {/* Store */}
          <Store />
          {/* News & Blogs  */}
-         <New />
+         {/* <New /> */}
          {/* Newsletter */}
          {/* <NewsLetters /> */}
     </Helmet>

@@ -13,12 +13,14 @@ import {TfiEmail} from 'react-icons/tfi'
 import {
     AiFillFacebook,
     AiFillTwitterSquare,
-    AiFillYoutube,
     AiOutlineInstagram
 } from 'react-icons/ai'
 import '../../style/footer.css'
-import {IoLogoYoutube} from 'react-icons/io'
-
+import {
+    IoLogoYoutube,
+    IoLogoDiscord,
+} from 'react-icons/io'
+import {FaDiscord} from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -120,7 +122,9 @@ const Footer = () => {
                         <a href='https://www.youtube.com/@TeamM11ESports' target='__blank'>
                             <IoLogoYoutube />
                         </a>
-                        
+                        <a href='' target='__blank'>
+                            <FaDiscord />
+                        </a>
                     </div>
                 </Col>
 
