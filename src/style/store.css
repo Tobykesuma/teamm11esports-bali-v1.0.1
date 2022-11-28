@@ -1,0 +1,72 @@
+.section-store {
+    background-image: url(../assets//2022/images/shop-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-store .has-scrollbar {
+    margin-inline: -15px;
+    padding-inline: 15px;
+    scroll-padding-inline-start: 15px;
+}
+
+.shop-card {
+    box-shadow: var(--shadow-4);
+    height: 100%;
+}
+
+.shop-card .card-content {
+    position: relative;
+    padding: 25px;
+    padding-block-start: 40px;
+}
+
+.shop-card .card-badge {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-card .card-content-title {
+    transition: var(--transition);
+    margin-block-end: 10px;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 800;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+/* .shop-card .card-content-title:is(:hover, :focus) {
+    color: var(--marigold);
+} */
+
+.shop-card .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--marigold);
+}
+
+.shop-card .card-price {
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+}
+
+.shop-card .card-btn {
+    color: inherit;
+    font-size: 22px;
+    padding: 7px;
+    border: 1px solid var(--english-violet);
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.shop-card .card-btn:is(:hover, :focus) {
+    background-color: var(--marigold);
+    color: var(--xiketic);
+    border-color: var(--marigold);
+}
+

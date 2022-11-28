@@ -129,9 +129,15 @@ span {
   color: var(--marigold); 
 }
 
-/* .img-holder  {
-  aspect-ratio: 800 / 470;
-} */
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-holder  {
+  aspect-ratio: var(--width) / var(--height);
+}
 
 .section-title {
   margin-block-end: 90px;
@@ -163,11 +169,84 @@ input {
   cursor: pointer;
 }
 
+.scrollbar-item {
+  /* min-width: 100%; */
+  scroll-snap-align: start;
+  padding-top: 40px;
+}
+
+.card-banner {
+  background-color: var(--light-gray-1);
+}
+
+.skewBg {
+  position: relative;
+  z-index: 1;
+}
+
+.skewBg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: skew(var(--skewX, -16deg));
+  background-color: var(--bg, var(--marigold));
+  z-index: -1;
+}
+
+.has-scrollbar {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-block-end:200px;
+  /* scroll-snap-type: inline mandatory; */
+}
+
+.has-scrollbar::-webkit-scrollbar {
+  height: 10px;
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  outline: 3px solid var(--marigold);
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--marigold);
+}
+
+.has-scrollbar::-webkit-scrollbar-button {
+  width: calc(25% - 40px);
+}
+
+.card-badge {
+  min-height: 30px;
+  color: var(--eerie-black-1);
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: max-content;
+  display: grid;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.card-badge::before {
+  --skewX: -10deg;
+} 
+
+.card-banner{
+  margin-block-end: 30px;
+}
+
+/* .card-banner {
+  margin-block-end: 30px;
+}
+
 
 /* .skewBg {
   position: relative;
   z-index: 1;
 }
+
 
 .skewBg::before {
   content: '';

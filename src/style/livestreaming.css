@@ -25,6 +25,7 @@
 .live-match-box {
     position: relative;
     margin-right: 20px;
+    box-shadow: var(--shadow-1);
 }
 
 .live-match-banner {
