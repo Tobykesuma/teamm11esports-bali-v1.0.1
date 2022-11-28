@@ -2,6 +2,7 @@
     z-index: 1;
     position: relative;
     background-color: white;
+    
 }
 
 .live-match::before {
@@ -19,7 +20,7 @@
 }
 
 .live-match::before {
-    height: 72%;
+    height: 61.2%;
 }
 
 .live-match-box {

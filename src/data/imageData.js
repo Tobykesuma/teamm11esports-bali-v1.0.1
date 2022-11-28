@@ -8,6 +8,10 @@ import ShopBG from '../assets/2022/images/shop-bg.jpeg'
 
 
 
+// Live Match Image //
+import EnemyLogo from '../assets/2022/images/enemy-logo.png'
+
+
 export default  {
     MainLogo,
     LiveMatchBanner,
@@ -15,7 +19,8 @@ export default  {
     TeamImages2,
     BlogImages,
     ShopBG,
-    
+    EnemyLogo,
+
 
 
 }

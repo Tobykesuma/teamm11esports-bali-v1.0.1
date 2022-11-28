@@ -177,6 +177,7 @@ input {
 
 .card-banner {
   background-color: var(--light-gray-1);
+  border-radius: 20px;
 }
 
 .skewBg {
@@ -273,4 +274,9 @@ input {
   section {
     padding: 25px 0px;
   }
+
+  .has-scrollbar {
+    padding-block-end:20px;
+  }
+
 }

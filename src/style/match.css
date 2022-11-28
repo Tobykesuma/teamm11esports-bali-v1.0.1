@@ -1,0 +1,131 @@
+.live-match-teams {
+    position: relative;
+    padding-block-start: 120px;
+}
+
+
+.live-match-teams::after {
+    content: 'LIVE';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 20rem;
+    font-weight: 600;
+    color: var(--cultured-2);
+    z-index: -1;
+    font-family: var(--font-Sans-Pro );
+}
+
+.match-teams img {
+    width: 100px;
+    object-fit: cover;
+    height: auto;
+}
+
+
+.live-match-teams .teams-logo {
+    max-width: max-content;
+}
+
+.live-match-teams .teams-logo-2 {
+    margin-inline-start: auto;
+}
+
+.live-match-details {
+    margin-block:-215px;
+}
+
+.live-match-subtext {
+    background-color: var(--marigold);
+    color: white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 4px 20px;
+    max-width: max-content;
+    margin-inline: auto;
+    margin-block-end: 30px;
+
+}
+
+.live-match-time {
+    color: var(--xiketic);
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: max-content;
+    margin-inline: auto;
+    line-height: 1;
+}
+
+.live-match-schedule {
+    color: var(--xiketic);
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: max-content;
+    margin-inline: auto;
+    line-height: 1;
+    margin-top: 40px;
+}
+
+
+/* BreakPoints */
+
+@media only screen and (max-width: 768px) {
+    .live-match-teams::after {
+        font-size: 5rem;
+
+    }
+
+    .live-match-teams {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .live-match-details {
+        margin-block: 0;
+    }
+
+    .match-teams img {
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    .live-match-subtext {
+        font-size: 0.7rem;
+        margin-block-end: 0;
+        text-align: center !important;
+        letter-spacing: 0 !important;
+        padding: 1px 5px !important;
+    }
+
+    .live-match-schedule {
+        font-size: 0.7rem;
+        text-align: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .teams-logo,
+    .teams-logo-2 {
+        height: 120px !important;
+    }
+
+    .teams-logo-2 {
+        width: auto !important;
+    }
+
+    .live-match-time {
+        font-size: 0.7rem;
+        text-align: center;
+        align-items: center;
+        margin-top: -5px;
+    }
+
+    .live-match-teams {
+        padding-block-start: 30px;
+    }
+
+}

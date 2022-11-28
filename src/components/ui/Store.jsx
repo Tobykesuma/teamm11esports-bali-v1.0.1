@@ -7,7 +7,7 @@ import {
  } from 'reactstrap'
 import ShopData from '../../data/ShopData'
 import {SlBasket} from 'react-icons/sl'
-
+import {BsFillBasketFill} from 'react-icons/bs'
 
 const Store = () => {
   return (
@@ -39,7 +39,7 @@ const Store = () => {
                                         <p className='card-price'>IDR 250K</p>
                                         <button className='card-btn'>
                                             <a href='https://www.tokopedia.com/teamm11esports' target='__blank'>
-                                                <SlBasket />
+                                                <BsFillBasketFill />
                                             </a>
                                         </button>
                                     </div>
@@ -63,7 +63,7 @@ const Store = () => {
                                         <p className='card-price'>IDR 250K</p>
                                         <button className='card-btn'>
                                             <a href='https://www.tokopedia.com/teamm11esports' target='__blank'>
-                                                <SlBasket />
+                                                <BsFillBasketFill />
                                             </a>
                                         </button>
                                     </div>
@@ -87,7 +87,7 @@ const Store = () => {
                                         <p className='card-price'>IDR 250K</p>
                                         <button className='card-btn'>
                                             <a href='https://www.tokopedia.com/teamm11esports' target='__blank'>
-                                                <SlBasket />
+                                                <BsFillBasketFill />
                                             </a>
                                         </button>
                                     </div>
@@ -111,7 +111,7 @@ const Store = () => {
                                         <p className='card-price'>IDR 250K</p>
                                         <button className='card-btn'>
                                             <a href='https://www.tokopedia.com/teamm11esports' target='__blank'>
-                                                <SlBasket />
+                                                <BsFillBasketFill />
                                             </a>
                                         </button>
                                     </div>
