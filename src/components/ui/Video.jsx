@@ -30,8 +30,8 @@ const Video = () => {
       {
         breakpoints: 600,
         settings: {
-          slidesToScroll: 2,
-          slidesToShow: 2,
+          slidesToScroll: 1,
+          slidesToShow: 1,
           intialSlide: 2,
         }
       },

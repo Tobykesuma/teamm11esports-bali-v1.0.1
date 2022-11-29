@@ -1,0 +1,23 @@
+.section-video {
+    padding: 30px;
+}
+
+
+
+
+/* Breakpoints */
+
+@media only screen and (max-width: 768px){
+    .youtube-video-box {
+        width: 80px !important;
+        height: 100px !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-item {
+        width: 100px !important;
+        height: 100px !important;
+        justify-content: center;
+        align-items: center;
+    }
+}
