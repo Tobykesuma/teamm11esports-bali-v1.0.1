@@ -8,8 +8,8 @@ const TournamentLogo = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 3500,
-        autoplaySpeed: 3000,
+        speed: 4000,
+        // autoplaySpeed: 3000,
         lazyLoad: true,
         autoplay: true,
         slidesToShow: 4,

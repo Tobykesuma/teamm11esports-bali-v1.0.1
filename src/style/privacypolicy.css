@@ -1,0 +1,40 @@
+.section-privacy-policy {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.section-privacy-policy .section-title {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.privacy-content .privacy-content-subtext {
+    color: black;
+    font-size: 1.5rem;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy-content .privacy-content-subtext2 {
+    font-size: 1.5rem;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.section-privacy-policy .section-title4 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: black;
+}
+
+
+/* BreakPoints */
+@media only screen and (max-width: 768px){
+    .section-privacy-policy .section-title {
+        margin-top: 70px;
+    }
+}

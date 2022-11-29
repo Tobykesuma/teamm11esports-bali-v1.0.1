@@ -6,7 +6,7 @@ import NewsLetters from '../components/ui/NewsLetters'
 import Store from '../components/ui/Store'
 import TournamentLogo from '../components/ui/TournamentLogo'
 import Video from '../components/ui/Video'
-
+import Teams from '../components/ui/Teams'
 
 
 const Home = () => {
@@ -17,6 +17,7 @@ const Home = () => {
 
 
         <TournamentLogo />
+        <Teams />
          {/* Live Stream */}
          <LiveStreaming />
          <Video />
