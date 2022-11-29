@@ -1,0 +1,54 @@
+.section-tournament {
+    padding: 30px;
+    background-image: var(--gradient);
+}
+
+.section-tournament {
+    padding-block-end: 0;
+}
+
+.section-tournament::-webkit-scrollbar {
+    display: none;
+}
+
+.brand-item {
+    min-width: calc(50% - 10px);
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-item > img {
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournament-logo-image {
+    width: 100px !important;
+    height: 100px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournament-logo-title {
+    color: var(--marigold);
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tournament-logo-subtext {
+    color: var(--quick-silver);
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+

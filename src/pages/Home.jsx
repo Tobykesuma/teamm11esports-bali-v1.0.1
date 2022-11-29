@@ -4,6 +4,8 @@ import LiveStreaming from '../components/ui/LiveStreaming'
 import New from '../components/ui/New'
 import NewsLetters from '../components/ui/NewsLetters'
 import Store from '../components/ui/Store'
+import TournamentLogo from '../components/ui/TournamentLogo'
+import Video from '../components/ui/Video'
 
 
 
@@ -14,9 +16,10 @@ const Home = () => {
 
 
 
-
+        <TournamentLogo />
          {/* Live Stream */}
          <LiveStreaming />
+         <Video />
          {/* Store */}
          <Store />
          {/* News & Blogs  */}

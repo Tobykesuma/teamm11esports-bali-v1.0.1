@@ -76,19 +76,19 @@ const Footer = () => {
 
     const quickLinksFooter3 = [
         {
-            path: '/dota-2',
+            path: '/teams/dota-2',
             display: 'Dota 2',
         },
         {
-            path: '/pubg',
+            path: '/teams/pubgm',
             display: 'PUBG',
         },
         {
-            path: '/valorant',
+            path: '/teams/valorant',
             display: 'Valorant',
         },
         {
-            path: '/mobile-legend',
+            path: '/teams/mobile-legend',
             display: 'Mobile Legend',
         },
         {

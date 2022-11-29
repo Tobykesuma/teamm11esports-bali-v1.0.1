@@ -15,7 +15,7 @@ import {AiOutlineCaretRight} from 'react-icons/ai'
 
 const New = () => {
   return (
-    <section className='news' id='News'>
+    <section className='news' id='news'>
         <Container>
             <Row>
                 <Col lg='12'>
