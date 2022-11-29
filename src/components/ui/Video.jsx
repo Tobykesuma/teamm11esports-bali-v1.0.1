@@ -49,7 +49,7 @@ const Video = () => {
     <section className='section section-video' id='video'>
       <Container>
         <Row>
-          <Col>
+          <Col lg='12'>
             <h2 className='section-title section-bg'>
               YOUTUBE <span className='span'>VIDEO</span>
             </h2>
