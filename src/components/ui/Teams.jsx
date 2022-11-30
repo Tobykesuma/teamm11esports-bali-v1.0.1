@@ -39,7 +39,7 @@ const Teams = () => {
                         </div>
                     </div>
 
-                    <div className='teams-card'>
+                    {/* <div className='teams-card'>
                         <div className='teams-item card-banner' style={{width: 300, height: 400}}>
                             <img src={imageData.Dota2Bg} alt='' className='w-100 teams-card-image img-cover' style={{width: 300, height: 400}} />
                         </div>
@@ -91,7 +91,7 @@ const Teams = () => {
                             </span>
                         </div>
                     </div>
-                    
+                     */}
 
                 </Col>
             </Row>

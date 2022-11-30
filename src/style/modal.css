@@ -1,0 +1,21 @@
+.cookies-banner {
+    width: 550px;
+    background-color: var(--gradient);
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: var(--shadow-1);
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    transition: transfrom .5s ease;
+}
+
+.cookies-banner svg {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+

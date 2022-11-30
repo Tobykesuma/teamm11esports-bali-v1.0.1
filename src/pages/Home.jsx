@@ -7,17 +7,20 @@ import Store from '../components/ui/Store'
 import TournamentLogo from '../components/ui/TournamentLogo'
 import Video from '../components/ui/Video'
 import Teams from '../components/ui/Teams'
+import Modal from '../components/ui/Modal'
+import About from '../components/ui/About'
+
 
 
 const Home = () => {
   return (
     <Helmet title='Homepage'>
         {/* Hero */}
-
-
+        {/* <Modal /> */}
 
         <TournamentLogo />
         <Teams />
+        <About />
          {/* Live Stream */}
          <LiveStreaming />
          <Video />
