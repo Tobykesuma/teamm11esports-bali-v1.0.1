@@ -76,6 +76,9 @@ const Video = () => {
               <div className='video-item'>
                 <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=qQkmbU_N6N0&t=4s' height={180} width={320} />
               </div>
+              <div className='video-item'>
+                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=9CAOWrD-YvA' height={180} width={320} />
+              </div>
               
             </Slider>
           </Col>

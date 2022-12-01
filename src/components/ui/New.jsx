@@ -30,7 +30,7 @@ const New = () => {
                         <li>
                             <div className='news-card'>
                                 <div className='card-banner img-holder' style={{width: 390, height: 290}}>
-                                    <img src={imageData.BlogImages} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                    <img src={imageData.NewsImage01} alt='' className='img-cover' style={{width: 390, height: 290}} />
                                 </div>
 
                                 <div className='news-card-content'>
@@ -47,11 +47,11 @@ const New = () => {
                                     </ul>
 
                                     <h3 className='card-title'>
-                                        Shooter Action Video
+                                        Valorant
                                     </h3>
 
                                     <p className='card-text'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse debitis aperiam illum fuga itaque pariatur architecto inventore placeat minus provident laudantium natus eius, nulla doloremque, magni fugit cupiditate maxime.
+                                    Apakah Valorant saat ini butuh senjata baru?? Pertanyaan ini kadang muncul dikepala mimin, ngelihat yang diupdate skin mulu yak, pengen juga dong ngeliat yang baru lainnya gitu. 
                                     </p>
                                     <a href='#' className='card-link'>
                                         <span className='span'>Read More</span>
