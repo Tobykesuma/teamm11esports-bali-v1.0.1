@@ -7,7 +7,10 @@ import ShopBG from '../assets/2022/images/shop-bg.jpeg'
 // Background Games //
 import Dota2Bg from '../assets/2022/images/dota.jpeg'
 import PUBGMBg from '../assets/2022/images/pubg.jpeg'
+import MLBBBg from '../assets/2022/images/mobile-legend-bg.jpeg'
 import ValorantBg from '../assets/2022/images/valorant-bg.jpeg'
+
+
 
 // Logo Games PNG //
 import Dota2Logo from '../assets/2022/images/logodota-2.png'
@@ -15,6 +18,7 @@ import Dota2Logo from '../assets/2022/images/logodota-2.png'
 
 // Live Match Image //
 import EnemyLogo from '../assets/2022/images/enemy-logo.png'
+import MainLogoBlack from '../assets/2022/images/logo-list-black.png';
 
 
 // News Image //
@@ -31,6 +35,9 @@ export default  {
     ValorantBg,
     Dota2Logo,
     NewsImage01,
+    MLBBBg,
+    MainLogoBlack,
+    
     
 
 

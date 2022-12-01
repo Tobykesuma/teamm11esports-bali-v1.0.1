@@ -16,7 +16,7 @@ const Match = () => {
         <Col>
           <div className='live-match-teams'>
             <div className='match-teams teams-logo' style={{width: 406, height: 277}}>
-              <img src={imageData.MainLogo} className='w-100' alt='' style={{width: 406, height: 277}} />
+              <img src={imageData.MainLogoBlack} className='w-100' alt='' style={{width: 406, height: 277}} />
               </div>
                 <div className='live-match-details'>
                   <p className='live-match-subtext'>
