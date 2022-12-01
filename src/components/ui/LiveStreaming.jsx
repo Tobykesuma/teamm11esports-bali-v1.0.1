@@ -33,7 +33,7 @@ const LiveStreaming = () => {
                         Watch Live <span className='span'>Match</span>
                     </h2>
                     <div className='live-match-box'>
-                        <ReactPlayer className='live-match-box2' url='https://www.youtube.com/watch?v=zh0-ivEiFb0' height={500} width={1280} playing={true}
+                        <ReactPlayer className='live-match-box2' url='https://www.youtube.com/watch?v=7_HIR5wFEng' height={500} width={1280} playing={true}
                         autoPlay={true} config={{youtube: {playerVars: {origin: 'https://www.youtube.com'}}}} />
                     </div>
                     <Match />

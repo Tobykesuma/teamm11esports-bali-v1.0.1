@@ -6,7 +6,7 @@ import {
  } from 'reactstrap'
 import imageData from '../../data/imageData'
 import '../../style/match.css'
-
+import { Link } from 'react-router-dom'
 
 
 const Match = () => {
@@ -22,7 +22,7 @@ const Match = () => {
                   <p className='live-match-subtext'>
                   Upcoming Live Matches
                   </p>
-                  <h2 className='live-match-schedule'>30 NOVEMBER 2022 </h2>
+                  <h2 className='live-match-schedule'>1 DECEMBER 2022 </h2>
                   <h2 className='live-match-time'>
                     07:00 CET
                   </h2>
@@ -32,6 +32,8 @@ const Match = () => {
                 </div>
                 
             </div>
+
+            
         </Col>
       </Row>
     </Container>

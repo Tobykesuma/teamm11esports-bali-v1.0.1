@@ -17,7 +17,7 @@ import Dota2Logo from '../assets/2022/images/logodota-2.png'
 
 
 // Live Match Image //
-import EnemyLogo from '../assets/2022/images/enemy-logo.png'
+import EnemyLogo from '../assets/2022/images/enemy-logo.jpg'
 import MainLogoBlack from '../assets/2022/images/logo-list-black.png';
 
 // Talent Image //
@@ -25,6 +25,8 @@ import Talent01 from '../assets/2022/talent/team-member-1.png';
 
 // News Image //
 import NewsImage01 from '../assets/2022/blogs/news01.jpeg'
+import NewsImage02 from '../assets/2022/blogs/new02.jpeg'
+import NewsImage03 from '../assets/2022/blogs/new03.jpeg'
 
 export default  {
     MainLogo,
@@ -37,6 +39,8 @@ export default  {
     ValorantBg,
     Dota2Logo,
     NewsImage01,
+    NewsImage02,
+    NewsImage03,
     MLBBBg,
     MainLogoBlack,
     Talent01,
