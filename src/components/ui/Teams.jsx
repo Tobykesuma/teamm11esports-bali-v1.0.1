@@ -31,10 +31,19 @@ const Teams = () => {
                                     </Link>
                                     
                                 </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/dota-2'>
+                                            DOTA 2
+                                        </Link>
+                                    </h3>
+                                </div>
                                 {/* <div className='card-content'>
                                     <h3>
-                                    <Link to='/teams/dota-2' className='card-content-title'>Dota 2</Link>
+                                    <Link to='/teams/dota-2' className='card-content-title'>DOTA 2</Link>
                                     </h3>
+                                
 
                                     <span className='card-meta'>
                                         <span className='span'>
@@ -62,6 +71,14 @@ const Teams = () => {
                                     <img src={imageData.PUBGMBg } style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
                                     </Link>
                                     
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/pubgm'>
+                                            PUBG MOBILE
+                                        </Link>
+                                    </h3>
                                 </div>
                                 {/* <div className='card-content'>
                                     <h3>
@@ -95,6 +112,14 @@ const Teams = () => {
                                     </Link>
                                     
                                 </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/mobile-legend'>
+                                            MLBB
+                                        </Link>
+                                    </h3>
+                                </div>
                                 {/* <div className='card-content'>
                                     <h3>
                                     <Link to='/teams/dota-2' className='card-content-title'>Dota 2</Link>
@@ -126,6 +151,14 @@ const Teams = () => {
                                     <img src={imageData.ValorantBg} style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
                                     </Link>
                                     
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/valorant'>
+                                            VALORANT
+                                        </Link>
+                                    </h3>
                                 </div>
                                 {/* <div className='card-content'>
                                     <h3>

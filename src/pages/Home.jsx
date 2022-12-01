@@ -9,7 +9,7 @@ import Video from '../components/ui/Video'
 import Teams from '../components/ui/Teams'
 import Modal from '../components/ui/Modal'
 import About from '../components/ui/About'
-
+import Talent from '../components/ui/Talent'
 
 
 const Home = () => {
@@ -24,6 +24,7 @@ const Home = () => {
          {/* Live Stream */}
          <LiveStreaming />
          <Video />
+         <Talent />
          {/* Store */}
          <Store />
          {/* News & Blogs  */}

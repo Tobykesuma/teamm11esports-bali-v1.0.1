@@ -7,7 +7,6 @@
     background-attachment: fixed;
 }
 
-
 .section-teams .section-title h2 {
     color: var(--xiketic);
     margin-block-end: 90px;
@@ -35,12 +34,14 @@
 }
 
 .teams-game-card .card-content {
-    bottom: 30%;
+    bottom: 35%;
     left: 0;
     right: 0;
     text-align: center;
     transition: var(--transition);
     padding: 35px 25px;
+    color: white;
+    overflow: hidden;
 }
 
 .teams-game-card .card-content-title {
@@ -61,6 +62,23 @@
     color: var(--platinum);
 }
 
+.teams-game-card .card-content .card-content-title {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: var(--font-Rubik-Mono);
+}
+
+.teams-game-card .card-content .card-content-title:hover {
+    color: var(--marigold);
+    font-size: 2rem;
+}
+
+.teams-game-card .card-content .card-content-title::before {
+    content: '';
+    position: absolute;
+    display: flex;
+}
 
 .teams-game-card .card-content .card-icon {
     color: var(--marigold);
@@ -71,13 +89,10 @@
     margin-block-end: 20px;
 }
 
-.teams-game-card .card-content-overlay .card-content-title {
-    color: var(--xiketic);
-}
 
-.teams-game-card:is(:hover, :focus-within) .card-content {
+/* .teams-game-card:is(:hover, :focus-within) .card-content {
     opacity: 0;
-}
+} */
 
 .teams-game-card:is(:hover, :focus-within) .card-content-overlay {
     opacity: 1;

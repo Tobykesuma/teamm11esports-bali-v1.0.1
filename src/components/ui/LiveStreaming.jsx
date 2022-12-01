@@ -1,11 +1,10 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import {
     Container,
     Row,
     Col,
 } from 'reactstrap'
 import '../../style/livestreaming.css'
-import imageData from '../../data/imageData'
 import Match from './Match'
 import ReactPlayer from 'react-player'
 
@@ -15,7 +14,7 @@ const LiveStreaming = () => {
     
         // const player = useRef();
         // useEffect(() => {
-        //     player.current = new YTPlayer('#' + videoId);
+        //     player.current = new YTPlayer('https://www.youtube.com/' + videoId);
         //     player.current.load(videoId);
         // }, [])
         // useEffect(() => {

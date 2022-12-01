@@ -24,7 +24,7 @@ import Ifrit from '../pages/Talent/Dota 2/Ifrit/Ifrit'
 import Bfl from '../pages/Talent/Dota 2/Bfl/Bfl'
 import Vinz from '../pages/Talent/Dota 2/Vinz/Vinz'
 import Juju from '../pages/Talent/Dota 2/Juju/Juju'
-
+import TalentPage from '../pages/TalentPage/TalentPage'
 
 
 const Routers = () => {
@@ -61,7 +61,7 @@ const Routers = () => {
         <Route path='/terms-of-services' element={<TermsOfServices />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/coming-soon' element={<ComingSoon />} />
-        
+        <Route path='/talent' element={<TalentPage />} />
         <Route path='*' element={<NotFound />} />
 
     </Routes>

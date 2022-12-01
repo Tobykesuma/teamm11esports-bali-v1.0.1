@@ -20,6 +20,8 @@ import Dota2Logo from '../assets/2022/images/logodota-2.png'
 import EnemyLogo from '../assets/2022/images/enemy-logo.png'
 import MainLogoBlack from '../assets/2022/images/logo-list-black.png';
 
+// Talent Image //
+import Talent01 from '../assets/2022/talent/team-member-1.png';
 
 // News Image //
 import NewsImage01 from '../assets/2022/blogs/news01.jpeg'
@@ -37,6 +39,7 @@ export default  {
     NewsImage01,
     MLBBBg,
     MainLogoBlack,
+    Talent01,
     
     
 
