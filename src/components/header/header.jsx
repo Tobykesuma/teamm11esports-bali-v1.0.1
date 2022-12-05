@@ -10,7 +10,8 @@ import {
 import { Link } from 'react-router-dom'
 import imageData from '../../data/imageData'
 import '../../style/header.css'
-
+import { motion } from 'framer-motion'
+import { navAnimation } from '../../animations'
 
 const Header = () => {
     const [click, setClick] = useState(false);
@@ -28,7 +29,11 @@ const Header = () => {
 
 
   return (
-    <header className='header'>
+    <header
+     variants={navAnimation}
+     transition={{ delay: 0.1}}
+     
+     className='header'>
         <div className={color ? 'header-top header-bg' : 'header-top'} id='header'>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>

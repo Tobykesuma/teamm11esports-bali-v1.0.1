@@ -6,7 +6,7 @@ import {
     Col,
  } from 'reactstrap'
 import Slider from 'react-slick'
-import ReactPlayer from 'react-player'
+
 
 const Video = () => {
   const settings = {
@@ -56,30 +56,55 @@ const Video = () => {
 
             <Slider {...settings}>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=3oA_gBi5gJY' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/3oA_gBi5gJY"
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=CSmTAIxV7Uo&t=479s' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/dfBkLpzM6e8"
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=cNY2ISF2sPw' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/9CAOWrD-YvA"
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=77h3p-xARYM&t=445s' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/cNY2ISF2sPw"
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=3oA_gBi5gJY' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/QABGiTNSGLc" 
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=dfBkLpzM6e8' height={180} width={320} />
-              </div>
-              <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=qQkmbU_N6N0&t=4s' height={180} width={320} />
-              </div>
-              <div className='video-item'>
-                <ReactPlayer className='youtube-video-box' url='https://www.youtube.com/watch?v=9CAOWrD-YvA' height={180} width={320} />
+              <iframe width="320" height="180" 
+              src="https://www.youtube.com/embed/77h3p-xARYM" 
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen></iframe>
               </div>
               
+            
             </Slider>
           </Col>
         </Row>
