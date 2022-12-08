@@ -25,10 +25,11 @@ import Bfl from '../pages/Talent/Dota 2/Bfl/Bfl'
 import Vinz from '../pages/Talent/Dota 2/Vinz/Vinz'
 import Juju from '../pages/Talent/Dota 2/Juju/Juju'
 import TalentPage from '../pages/TalentPage/TalentPage'
-
+import { motion } from 'framer-motion'
 
 const Routers = () => {
   return (
+    <motion.div initial='hidden' animate='show'>
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about-us' element={<AboutNav />} />
@@ -65,6 +66,8 @@ const Routers = () => {
         <Route path='*' element={<NotFound />} />
 
     </Routes>
+
+    </motion.div>
   )
 }
 
