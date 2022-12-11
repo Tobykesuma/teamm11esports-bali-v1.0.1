@@ -8,7 +8,7 @@ import {
     AiOutlineClose,
 } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import imageData from '../../data/imageData'
+import ImageDataImage from '../../data/imageData'
 import '../../style/header.css'
 import { motion } from 'framer-motion'
 import { navAnimation } from '../../animations'
@@ -37,7 +37,7 @@ const Header = () => {
         <div className={color ? 'header-top header-bg' : 'header-top'} id='header'>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>
-                    <img src={imageData.MainLogo} alt='' />
+                    <img src={ImageDataImage.MainLogo} alt='' />
                 </Link>
                 {/* Hamburger Navbar */}
                 <div className='hamburger' onClick={handleClick}>

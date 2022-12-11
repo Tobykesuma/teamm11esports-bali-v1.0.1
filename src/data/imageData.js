@@ -2,7 +2,7 @@
 import MainLogo from '../assets/2022/images/mainlogo.webp'
 import LiveMatchBanner from '../assets/2022/images/live-match-banner.jpg'
 import BlogImages from '../assets/2022/blogs/blog-1.jpg'
-import ShopBG from '../assets/2022/images/shop-bg.jpeg'
+import ShopBG from '../assets/2022/images/shop-bg.webp'
 
 // Background Games //
 import Dota2Bg from '../assets/2022/images/dota.webp'
@@ -28,7 +28,7 @@ import NewsImage01 from '../assets/2022/blogs/news01.webp'
 import NewsImage02 from '../assets/2022/blogs/new02.webp'
 import NewsImage03 from '../assets/2022/blogs/new03.webp'
 
-export default  {
+const ImageDataImage = {
     MainLogo,
     LiveMatchBanner,
     BlogImages,
@@ -44,8 +44,28 @@ export default  {
     MLBBBg,
     MainLogoBlack,
     Talent01,
-    
-    
-
-
 }
+
+export default ImageDataImage;
+
+// export default  {
+//     MainLogo,
+//     LiveMatchBanner,
+//     BlogImages,
+//     ShopBG,
+//     EnemyLogo,
+//     Dota2Bg,
+//     PUBGMBg,
+//     ValorantBg,
+//     Dota2Logo,
+//     NewsImage01,
+//     NewsImage02,
+//     NewsImage03,
+//     MLBBBg,
+//     MainLogoBlack,
+//     Talent01,
+    
+    
+
+
+// }

@@ -1,9 +1,9 @@
 // Logo Tournament Achievements//
-import Tournament01 from '../assets/2022/tournament/esl.png'
+import Tournament01 from '../assets/2022/tournament/esl.webp'
 import Tournament02 from '../assets/2022/tournament/Intellogo.png'
-import Tournament03 from '../assets/2022/tournament/Lupon.png'
-import Tournament04 from '../assets/2022/tournament/Oxtradelogo.png'
-import Tournament05 from '../assets/2022/tournament/prasmul.png'
+import Tournament03 from '../assets/2022/tournament/Lupon.webp'
+import Tournament04 from '../assets/2022/tournament/Oxtradelogo.webp'
+import Tournament05 from '../assets/2022/tournament/prasmul.webp'
 
 
 export default {

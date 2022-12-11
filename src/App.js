@@ -6,6 +6,18 @@ import BacktoTop from "./components/ui/BacktoTop";
 
 
 function App() {
+  // Server Back-End //
+  // const [backendData, setbackendData] = useState([{}])
+  // useEffect(() => {
+  //   fetch('/api').then(
+  //     response => response.json()
+  //   ).then(
+  //     data => {
+  //       setbackendData(data)
+  //     }
+  //   )
+  // }, [])
+
   // Loading Pages //
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -26,10 +38,8 @@ function App() {
             <PulseLoader size={10} color={'#fff'} loading={loading} style={{display: 'flex', justifyContent: 'center', textAlign: 'center', height: '100vh', width: '100%', alignItems: 'center'}} />
           ) : (
             <>
-              
-                <BacktoTop />
+              <BacktoTop />
               <Layout /> 
-              
             </>
           )
         }

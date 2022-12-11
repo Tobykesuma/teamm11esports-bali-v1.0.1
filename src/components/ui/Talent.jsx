@@ -3,7 +3,7 @@ import '../../style/talent.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import {MdLink} from 'react-icons/md'
-import imageData from '../../data/imageData'
+import ImageDataImage from '../../data/imageData'
 
 
 const Talent = () => {
@@ -19,7 +19,7 @@ const Talent = () => {
                         <li>
                             <Link to='/teams/dota-2/talent/ramz' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -28,7 +28,7 @@ const Talent = () => {
                         <li>
                             <Link to='/teams/dota-2/talent/ifrit' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -37,7 +37,7 @@ const Talent = () => {
                         <li>
                             <Link to='/teams/dota-2/talent/bfl' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -46,7 +46,7 @@ const Talent = () => {
                         <li>
                             <Link to='/teams/dota-2/talent/vinz' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -55,7 +55,7 @@ const Talent = () => {
                         <li>
                             <Link to='/teams/dota-2/talent/juju' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -64,7 +64,7 @@ const Talent = () => {
                         <li>
                             <Link to='' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -73,7 +73,7 @@ const Talent = () => {
                         <li>
                             <Link to='' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -82,7 +82,7 @@ const Talent = () => {
                         <li>
                             <Link to='' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -91,7 +91,7 @@ const Talent = () => {
                         <li>
                             <Link to='' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>
@@ -100,7 +100,7 @@ const Talent = () => {
                         <li>
                             <Link to='' className='talent-member'>
                                 <div className='talent-member-card'>
-                                    <img src={imageData.Talent01} alt='talent-member-image' />
+                                    <img src={ImageDataImage.Talent01} alt='talent-member-image' />
                                 </div>
                                 <MdLink className='icons-talent-link' />
                             </Link>

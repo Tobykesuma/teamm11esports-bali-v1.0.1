@@ -6,8 +6,6 @@ import {
 } from 'reactstrap'
 import '../../style/livestreaming.css'
 import Match from './Match'
-import ReactPlayer from 'react-player'
-
 
 
 const LiveStreaming = () => {
@@ -22,6 +20,17 @@ const LiveStreaming = () => {
         //         player.current.pause();
         //     }
         // }, [on]);
+        
+
+        // Modal Pop up Video //
+        // const [modal, setModal] = React.useState(false)
+        // const [videoLoading, setVideoLoading] = React.useState(true)
+        // const openModal = () => {
+        //     setModal(!modal)
+        // }
+        // const spinner = () => {
+        //     setVideoLoading(!videoLoading)
+        // }
     
   return (
     
@@ -33,7 +42,7 @@ const LiveStreaming = () => {
                         Watch Live <span className='span'>Match</span>
                     </h2>
                     <div className='live-match-box'>
-                    <iframe playing='true' width="1280" height="500" src="https://www.youtube.com/embed/7_HIR5wFEng" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" className='live-match-box2' allowFullScreen autoPlay={true} config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
+                    <iframe playing='true' width="1280" height="510" src="https://www.youtube.com/embed/7_HIR5wFEng" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" className='live-match-box2' loading="lazy" allowFullScreen autoPlay={true} config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
                     </iframe>
                     </div>
                     <Match />
