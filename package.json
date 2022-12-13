@@ -20,6 +20,7 @@
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.6",
     "reactstrap": "^9.1.5",
+    "serve": "^14.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
