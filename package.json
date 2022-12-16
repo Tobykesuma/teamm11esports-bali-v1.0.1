@@ -22,6 +22,7 @@
     "react-spinners": "^0.13.6",
     "reactstrap": "^9.1.5",
     "serve": "^14.1.2",
+    "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -29,6 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "prod": "npm run-script build && serve build"
   },
   "eslintConfig": {

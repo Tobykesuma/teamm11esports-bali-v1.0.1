@@ -17,7 +17,7 @@ import Dota2Logo from '../assets/2022/images/logodota-2.png'
 
 
 // Live Match Image //
-import EnemyLogo from '../assets/2022/images/enemy-logo.jpg'
+import EnemyLogo from '../assets/2022/images/marsteam.png'
 import MainLogoBlack from '../assets/2022/images/logo-list-black.webp';
 
 // Talent Image //
