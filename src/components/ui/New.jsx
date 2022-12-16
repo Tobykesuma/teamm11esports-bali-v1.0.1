@@ -27,6 +27,40 @@ const New = () => {
                     </p>
 
                     <ul className='news-list'>
+                    <li>
+                            <div className='news-card'>
+                                <div className='card-banner' style={{width: 390, height: 290}}>
+                                    <img src={imageData.NewsImage03} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
+
+                                <div className='news-card-content'>
+                                    <ul className='card-meta-list'>
+                                        <li className='card-meta-item'>
+                                            <MdAccountCircle />
+                                            <a href='' className='item-text'>Admin</a>
+                                        </li>
+
+                                        <li className='card-meta-item'>
+                                            <MdDateRange />
+                                            <time dateTime='2022-11-27' className='item-text'>November 14, 2022</time>
+                                        </li>
+                                    </ul>
+
+                                    <h3 className='card-title'>
+                                        Team M11 MLBB Ladies
+                                    </h3>
+
+                                    <p className='card-text'>
+                                    Bersiaplah MLBB Ladies kita akan segera bertarung di Land of Dawn. Sudah sampai babak Pays-in, selanjutnya tanding mulai 15 Desember, match pertama sekitar pukul 16:40 WITA.
+                                    </p>
+                                    <a href='https://www.youtube.com/channel/UCvCloNPASmV_DGmgiE5gmVw/community?lb=UgkxfBcBAiWUIDyNNz2Pa1J7AtfbNY1v2oWj' className='card-link'>
+                                        <span className='span'>Read More</span>
+                                        <AiOutlineCaretRight />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
                         <li>
                             <div className='news-card'>
                                 <div className='card-banner img-holder' style={{width: 390, height: 290}}>
@@ -95,39 +129,7 @@ const New = () => {
                             </div>
                         </li>
 
-                        <li>
-                            <div className='news-card'>
-                                <div className='card-banner' style={{width: 390, height: 290}}>
-                                    <img src={imageData.NewsImage03} alt='' className='img-cover' style={{width: 390, height: 290}} />
-                                </div>
-
-                                <div className='news-card-content'>
-                                    <ul className='card-meta-list'>
-                                        <li className='card-meta-item'>
-                                            <MdAccountCircle />
-                                            <a href='' className='item-text'>Admin</a>
-                                        </li>
-
-                                        <li className='card-meta-item'>
-                                            <MdDateRange />
-                                            <time dateTime='2022-11-27' className='item-text'>November 11, 2022</time>
-                                        </li>
-                                    </ul>
-
-                                    <h3 className='card-title'>
-                                        Team M11 MLBB Ladies
-                                    </h3>
-
-                                    <p className='card-text'>
-                                    Congratz Ladiesss, Team M11 MLBB amankan top spot dari GMPL Ladies Season 4 setelah menang BO7 melawan Tim Gaz Ladies Proxima. Sekali lagi selamat yaaa, ditunggu achievement selanjutnya.
-                                    </p>
-                                    <a href='https://www.youtube.com/channel/UCvCloNPASmV_DGmgiE5gmVw/community?lb=Ugkxy5ytT5sGRLOWWspbMvc4UQH5GOC7eRrz' className='card-link'>
-                                        <span className='span'>Read More</span>
-                                        <AiOutlineCaretRight />
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
+                        
 
 
                     </ul>

@@ -26,7 +26,7 @@ import Talent01 from '../assets/2022/talent/team-member-1.png';
 // News Image //
 import NewsImage01 from '../assets/2022/blogs/news01.webp'
 import NewsImage02 from '../assets/2022/blogs/new02.webp'
-import NewsImage03 from '../assets/2022/blogs/new03.webp'
+import NewsImage03 from '../assets/2022/blogs/new03.jpeg'
 
 const ImageDataImage = {
     MainLogo,
