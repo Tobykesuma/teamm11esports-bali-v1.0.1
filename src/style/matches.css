@@ -1,3 +1,15 @@
+.match-section {
+    padding-block-start: 120px;
+}
+
+.match-title {
+    color: white;
+    font-family: var(--font-Sans-Pro);
+    font-weight: 600;
+    line-height: 1;  
+}
+
+
 strong {
     font-weight: 600;
     font-family: var(--font-Inter);
@@ -6,22 +18,22 @@ strong {
 
 .match {
     display: flex;
-    background-color: white;
+    background-color: var(--cultured-2);
     flex-direction: column;
-    margin-top: 40px;
-    min-width: 600px;
+    margin-top: 90px;
+    max-width: 970px;
     border-radius: 10px;
-    box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
+    box-shadow: var(--shadow-1);
+    justify-content: center;
+    margin-left: 160px;
+    align-content: center;
 }
 
-
 .match-header {
-    /* padding: 16px; */
-    border-bottom: 20px solid var(--raisin-black-3);
-    border-bottom: 1px var(--raisin-black-3);
-    align-items: flex-end;
-    justify-content: flex-end;
-    position: relative;
+    padding: 14px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid var(--raisin-black-1);
 }
 
 .match-status {
@@ -35,23 +47,29 @@ strong {
     align-items: center;
     justify-content: center;
     line-height: 1;
-    margin-right: auto;
-    width: 100px;
-    margin: 10px 10px 10px 10px;
-    
+    margin-right: auto;   
+}
+
+.match-status::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin-right: 8px;
 }
 
 .match-tournament {
     display: flex;
     align-items: center;
     font-weight: 600;
-    justify-content: center;
     /* border-bottom: 1px solid var(--raisin-black-3); */
 }
 
 .match-tournament img {
-    width: 20px;
-    margin-right: 12px;
+    width: 30px;
+    margin-right: 10px;
 }
 
 .match-actions {
@@ -63,17 +81,31 @@ strong {
     border: none;
     background-color: transparent;
     color: black;
-    
-    justify-content: left;
+    margin-left: 20px;
 }
 
-.match-icons:hover {
+.match-actions .match-icons svg:hover {
     color: var(--marigold_75);
 }
 
 .match-content {
     display: flex;
     position: relative;
+    z-index: 1;
+}
+
+.match-content::before {
+    content: 'SCHEDULE';
+    font-size: 10rem;
+    z-index: -1;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-weight: 600;
+    color: black;
+    font-family: var(--font-Sans-Pro );
+    opacity: 0.1;
 }
 
 .match-column {
@@ -91,7 +123,7 @@ strong {
 }
 
 .matches-team img {
-    width:150px;
+    width:100px;
 }
 
 .match-logo-team {
@@ -123,6 +155,7 @@ strong {
 
 .match-date {
     font-size: 18px;
+    font-weight: 600;
     color: var(--raisin-black-1);
     justify-content: center;
     text-align: center;
@@ -137,7 +170,7 @@ strong {
 }
 
 .match-score {
-    margin-top: 12px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
 }
@@ -151,7 +184,6 @@ strong {
     margin-right: 10px;
 }
 
-
 .match-score-divider {
     font-size: 30px;
     font-weight: 600;
@@ -163,20 +195,53 @@ strong {
 
 .match-live-streams {
     position: absolute;
-    bottom: -16px;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
     border: none;
     border-radius: 6px;
-    padding: 10px 48px;
-    color: white;
+    padding: 0px 40px;
+    color: transparent;
+    border: 1px solid var(--marigold);
     font-size: 30px;
     box-shadow: 0 4px 8px 0 rgba(rgba(#303030, 0.25));
     background-color: var(--cultured-2);
+    margin-right: 5px;
+}
+
+.match-live-streams svg {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.match-live-streams svg:hover {
+    color: var(--marigold);
 }
 
 
+/* BreakPoints */
 
+@media only screen and (max-width: 768px) {
+    .match-section {
+        padding-block-start: 30px;
+    }
+
+    .match {
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .match-tournament img {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .match-status {
+        font-size: 10px;
+        
+    }
+}
 
 
 

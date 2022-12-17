@@ -10,13 +10,18 @@ const Matches = () => {
     <Container>
         <Row>
             <Col>
+            <section className='match-section section-bg'>
+                <h1 className='match-title'>
+                    SCHEDULE <span className='span'>TEAMS</span>
+                </h1>
+            </section>
               
                 <div className='match'>
                     <div className='match-header'>
                         <div className='match-status'>Upcoming</div>
                         <div className='match-tournament'>
                             <a href='https://www.gosugamers.net/dota2/tournaments/55051-esea-league'>
-                            {/* <img src={} alt='' /> */}
+                            <img src={MatchesLogo.DefaultLogoDota} alt='' />
                             ESEA LEAGUE
                             </a>
                         </div>
@@ -25,10 +30,13 @@ const Matches = () => {
                                 <a href='https://www.youtube.com/@TeamM11ESports/streams    '>
                                     <AiFillYoutube />
                                 </a>
-                                <a href='/'>
+                            </button>
+                            <button className='match-icons'>
+                                <a href='https://www.gosugamers.net/dota2/streams/365885-yuhengtv'>
                                     <FiTwitch />
                                 </a>
                             </button>
+                        </div>
                         </div>
 
                         <div className='match-content'>
@@ -43,8 +51,8 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='match-details'>
                                     <div className='match-date'>
-                                        19 December 2022 <br></br> 
-                                        <strong>08:00 CEST</strong>
+                                        19 DECEMBER 2022 <br></br> 
+                                        <strong>08:00 CET</strong>
                                     </div>
                                     <div className='match-score'>
                                         <span className='match-score-number match-score-number--leading'> 0 </span>
@@ -63,33 +71,33 @@ const Matches = () => {
                             </div>
                             <button className='match-live-streams'>
                                 <a href='https://www.youtube.com/@TeamM11ESports/streams' target='__blank'>
-                                    <AiFillYoutube>
-                                    YouTube
-                                    </AiFillYoutube>
+                                    <AiFillYoutube />
                                 </a>
                             </button>
                         </div>
                     </div>
-                </div>
-
-                <div className='match'>
+                
+                    <div className='match'>
                     <div className='match-header'>
                         <div className='match-status'>Upcoming</div>
                         <div className='match-tournament'>
                             <a href='https://www.gosugamers.net/dota2/tournaments/55051-esea-league'>
-                            {/* <img src={} alt='' /> */}
+                            <img src={MatchesLogo.DefaultLogoDota} alt='' />
                             ESEA LEAGUE
                             </a>
                         </div>
                         <div className='match-actions'>
-                            <div className='match-icons'>
-                                <a href='https://www.youtube.com/@TeamM11ESports/streams'>
+                            <button className='match-icons'>
+                                <a href='https://www.youtube.com/@TeamM11ESports/streams    '>
                                     <AiFillYoutube />
                                 </a>
-                                <a href='/'>
+                            </button>
+                            <button className='match-icons'>
+                                <a href='https://www.gosugamers.net/dota2/streams/365885-yuhengtv'>
                                     <FiTwitch />
                                 </a>
-                            </div>
+                            </button>
+                        </div>
                         </div>
 
                         <div className='match-content'>
@@ -104,15 +112,14 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='match-details'>
                                     <div className='match-date'>
-                                        19 December 2022 <br></br> 
-                                        <strong>10:00 CEST</strong>
+                                        19 DECEMBER 2022 <br></br> 
+                                        <strong>10:00 CET</strong>
                                     </div>
                                     <div className='match-score'>
-                                        <span className='match-score-number match-score-number--leading'> 0 </span>
+                                        <span className='match-score-number'> 0 </span>
                                         <span className='match-score-divide'> : </span>
                                         <span className='match-score-number'> 0 </span>
                                     </div>
-                                    
                                 </div>
                             </div>
                             <div className='match-column'>
@@ -122,24 +129,25 @@ const Matches = () => {
                                     </div>
                                     <h2 className='team-name'>Reaper</h2>
                                 </div>
-                              
                             </div>
                             <button className='match-live-streams'>
                                 <a href='https://www.youtube.com/@TeamM11ESports/streams' target='__blank'>
-                                    <AiFillYoutube>
-                                    YouTube
-                                    </AiFillYoutube>
+                                    <AiFillYoutube />
                                 </a>
                             </button>
                         </div>
                     </div>
-                </div>
+                
+                
 
 
-
+                    {/* <button className='all-schedule'>
+                    VIEW ALL SCHEDULE
+                </button> */}
             </Col>
         </Row>
     </Container>
+    
   )
 }
 
