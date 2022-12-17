@@ -6,6 +6,7 @@ import {
 } from 'reactstrap'
 import '../../style/livestreaming.css'
 import Match from './Match'
+
 // import ModalVideo from 'react-modal-video'
 
 
@@ -49,6 +50,7 @@ const LiveStreaming = () => {
                     
                     </div>
                     <Match />
+                   
                 </Col>
             </Row>
         </Container>

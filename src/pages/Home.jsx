@@ -8,6 +8,7 @@ import Video from '../components/ui/Video'
 import Teams from '../components/ui/Teams'
 import About from '../components/ui/About'
 import Talent from '../components/ui/Talent'
+import Matches from '../components/ui/Matches'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <About />
          {/* Live Stream */}
          <LiveStreaming />
+        <Matches />
          <Video />
          <Talent />
          {/* Store */}
