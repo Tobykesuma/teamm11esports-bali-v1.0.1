@@ -6,6 +6,7 @@ import {
 } from 'reactstrap'
 import '../../style/livestreaming.css'
 import Match from './Match'
+// import ModalVideo from 'react-modal-video'
 
 
 const LiveStreaming = () => {
@@ -44,6 +45,8 @@ const LiveStreaming = () => {
                     <div className='live-match-box'>
                     <iframe playing='true' width="1280" height="510" src="https://www.youtube.com/embed/7_HIR5wFEng" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" channel='youtube' origin='https://www.youtube.com' className='live-match-box2' loading="lazy" allowFullScreen autoPlay={true} config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
                     </iframe>
+                        
+                    
                     </div>
                     <Match />
                 </Col>

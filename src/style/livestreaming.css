@@ -63,3 +63,15 @@
         right: 2%;
     }
 }
+
+
+@media only screen and (max-width: 330px) {
+    .live-match-box2 {
+        height: 170px !important;
+        width: 286px !important;
+    }
+
+    .live-match-box {
+        right: -4%;
+    }
+}
