@@ -220,6 +220,30 @@ strong {
 }
 
 
+.btn-primary {
+    margin-inline: auto;
+}
+
+.all-schedule-btn {
+    margin-top: 90px;
+}
+
+.all-schedule-btn {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 34px;
+    clip-path: var(--polygon-1);
+    transition: var(--transition-1);
+}
+
+
 /* BreakPoints */
 
 @media only screen and (max-width: 768px) {
@@ -239,7 +263,22 @@ strong {
 
     .match-status {
         font-size: 10px;
-        
+
+    }
+
+    .match-logo-team img {
+        width: 60px;
+    }
+
+    .match-tournament a {
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .match {
+        max-width: 500px;
     }
 }
 
