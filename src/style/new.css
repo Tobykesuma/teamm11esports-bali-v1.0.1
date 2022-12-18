@@ -53,10 +53,57 @@
     transition: var(--transition);
 }
 
+.card-text {
+    color: var(--raisin-black-3);
+}
 
+.card-link,
+.card-link svg {
+    color: var(--marigold);
+}
+
+.card-link:hover,
+.card-link svg:hover {
+    color: var(--raisin-black-3);
+}
 
 /* BreakPoints */
-@media only screen and (max-width: 768px){
+
+@media only screen and (max-width: 768px) {
+    .news .card-banner img {
+        width: 335px !important;
+        height: 300px !important;
+        margin-left: -15px;
+    }
+
+    .news-card-content {
+        margin-left: -15px;
+    }
+
+    .card-text {
+        text-align:justify;
+        
+    }
+
+    .card-banner {
+        background-color: transparent !important;
+    }
+
+    .news-card .card-meta-item {
+        letter-spacing: 1px;
+        margin-right:30px;
+        margin-left: -30px;
+    }
+
+    .news-card-content {
+        margin-right: 10px;
+    }
+
+    .news-list {
+        display: grid;
+    }
+}
+@media only screen and (max-width: 330px){
     .news-list {
         grid-template-columns:repeat(1, 1fr);
         justify-content: center;
@@ -66,19 +113,49 @@
     }
 
     .news .news-card img {
-        width: 350px !important;
+        width: 300px !important;
         height: 300px !important;
     }
 
-    .news .card-banner {
-        width: 350px !important;
-        height: 300px !important;
-        padding-right: 20px !important;
+    .news .card-banner img {
+        width: 300px !important;
+        height: auto;
     }
 
     .news-card {
-        padding-right: 35px !important;
+        margin-left: -35px !important;
     }
+
+    .card-banner {
+        background-color: transparent !important;
+    }
+
+    .card-text {
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        display: flex;
+        color: var(--raisin-black-3);
+    }
+
+    .news-card .card-meta-item {
+        letter-spacing: 0;
+        margin-right: 30px;
+        margin-left: -30px;
+    }
+
+
+    .card-link,
+    .card-link svg {
+        font-size: 18px;
+        color: var(--marigold);
+    }
+    
+}
+
+@media only screen and (max-width: 330px) {
+
 }
 
 

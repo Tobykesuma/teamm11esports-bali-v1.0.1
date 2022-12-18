@@ -86,6 +86,7 @@ const Matches = () => {
                             <a href='https://www.gosugamers.net/dota2/tournaments/55051-esea-league'>
                             <img src={MatchesLogo.ESLLeagueLogo} alt='' />
                             ESEA LEAGUE
+                            {/* <img src={MatchesLogo.DefaultLogoDota} alt='' /> */}
                             </a>
                         </div>
                         <div className='match-actions'>
@@ -142,7 +143,7 @@ const Matches = () => {
                     
                     <div className='match'>
                     <div className='match-header'>
-                        <div className='match-status'>Upcoming</div>
+                        <div className='match-status'>Result</div>
                         <div className='match-tournament'>
                             <a href='https://www.youtube.com/@wslofficial'>
                             <img src={MatchesLogo.WSLLogo} alt='' />

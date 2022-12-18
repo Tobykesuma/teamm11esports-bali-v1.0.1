@@ -18,7 +18,7 @@ const New = () => {
     <section className='news' id='news'>
         <Container>
             <Row>
-                <Col lg='12'>
+                <Col>
                     <h2 className='section-title2 section-bg'>
                         Latest News & <span className='span'>Articles</span>
                     </h2>
@@ -29,7 +29,7 @@ const New = () => {
                     <ul className='news-list'>
                     <li>
                             <div className='news-card'>
-                                <div className='card-banner' style={{width: 390, height: 290}}>
+                                <div className='card-banner'>
                                     <img src={imageData.NewsImage03} alt='' className='img-cover' style={{width: 390, height: 290}} />
                                 </div>
 
@@ -63,7 +63,7 @@ const New = () => {
 
                         <li>
                             <div className='news-card'>
-                                <div className='card-banner img-holder' style={{width: 390, height: 290}}>
+                                <div className='card-banner img-holder'>
                                     <img src={imageData.NewsImage02} alt='' className='img-cover' style={{width: 390, height: 290}} />
                                 </div>
 
@@ -97,7 +97,7 @@ const New = () => {
 
                         <li>
                             <div className='news-card'>
-                                <div className='card-banner' style={{width: 390, height: 290}}>
+                                <div className='card-banner'>
                                     <img src={imageData.NewsImage01} alt='' className='img-cover' style={{width: 390, height: 290}} />
                                 </div>
 

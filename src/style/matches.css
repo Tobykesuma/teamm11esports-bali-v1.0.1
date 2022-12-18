@@ -70,6 +70,7 @@ strong {
 .match-tournament img {
     width: 30px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .match-actions {
@@ -184,13 +185,13 @@ strong {
     margin-right: 10px;
 }
 
-.match-score-divider {
+.match-score-divide {
     font-size: 30px;
     font-weight: 600;
     font-family: var(--font-Inter);
     margin-left: 10px;
     margin-right: 10px;
-    color: var(--raisin-black-1);
+
 }
 
 .match-live-streams {
@@ -248,7 +249,7 @@ strong {
 
 @media only screen and (max-width: 768px) {
     .match-section {
-        padding-block-start: 30px;
+        padding-block-start: 50px;
     }
 
     .match {
@@ -257,7 +258,7 @@ strong {
     }
 
     .match-tournament img {
-        width: 15px;
+        width: 20px;
         margin-right: 5px;
     }
 
@@ -280,6 +281,64 @@ strong {
     .match {
         max-width: 500px;
     }
+
+    .match-content::before {
+        font-size: 4rem;
+    }
+
+    .team-name {
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    .match-column {
+        padding: 10px;
+    }
+
+    .match-date {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .match-score-number {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .match-score {
+        margin-top: 5px;
+    }
+
+    .match-header {
+        padding: 10px;
+    }
+
+    .match-score-divide {
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .match-live-streams {
+        padding: 0px 30px;
+        bottom: -25px;
+        margin-right: 0;
+    }
+
+    .match-live-streams svg {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .all-schedule-btn {
+        font-size: 12px;
+        padding: 10px 25px;
+        margin-top: 50px;
+    }
+
+    
 }
 
 
