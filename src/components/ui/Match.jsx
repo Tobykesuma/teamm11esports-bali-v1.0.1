@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React from 'react'
 import { 
     Container,
     Row,
@@ -6,7 +6,6 @@ import {
  } from 'reactstrap'
 import imageData from '../../data/imageData'
 import '../../style/match.css'
-import { Link } from 'react-router-dom'
 
 
 const Match = () => {
@@ -22,12 +21,12 @@ const Match = () => {
                   <p className='live-match-subtext'>
                   Upcoming Live Matches
                   </p>
-                  <h2 className='live-match-schedule'>19 DECEMBER 2022 </h2>
+                  <h2 className='live-match-schedule'>21 DECEMBER 2022 </h2>
                   <h2 className='live-match-time'>
                     06:00 CET
                   </h2>
                 </div>
-                <div className='match-teams teams-logo-2' style={{width: 406, height: 277}}>
+                <div className='match-teams teams-logo' style={{width: 406, height: 277}}>
                   <img src={imageData.EnemyLogo} className='w-100' alt='' style={{width: 406, height: 277}} />
                 </div>
                 

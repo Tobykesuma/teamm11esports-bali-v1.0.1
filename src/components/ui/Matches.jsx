@@ -53,7 +53,7 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='match-details'>
                                     <div className='match-date'>
-                                        19 DECEMBER 2022 <br></br> 
+                                        21 DECEMBER 2022 <br></br> 
                                         <strong>08:00 CET</strong>
                                     </div>
                                     <div className='match-score'>
@@ -115,7 +115,7 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='match-details'>
                                     <div className='match-date'>
-                                        19 DECEMBER 2022 <br></br> 
+                                        21 DECEMBER 2022 <br></br> 
                                         <strong>10:00 CET</strong>
                                     </div>
                                     <div className='match-score'>

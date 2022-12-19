@@ -103,7 +103,7 @@
         display: grid;
     }
 }
-@media only screen and (max-width: 330px){
+@media only screen and (min-width: 260px){
     .news-list {
         grid-template-columns:repeat(1, 1fr);
         justify-content: center;
@@ -123,7 +123,7 @@
     }
 
     .news-card {
-        margin-left: -35px !important;
+        margin-left: -15px !important;
     }
 
     .card-banner {
@@ -150,6 +150,10 @@
     .card-link svg {
         font-size: 18px;
         color: var(--marigold);
+    }
+
+    .news-card .card-title {
+        font-size: 1.3rem;
     }
     
 }

@@ -129,3 +129,32 @@
     }
 
 }
+
+@media only screen and (max-width: 575.98) {
+    .live-match-teams .teams-logo-2 {
+        margin-inline-start: 0 !important;
+    }
+
+    .match-teams img {
+        width: 55px !important;
+        height: auto !important;
+    }
+
+    .live-match-subtext {
+        font-size: 0.5rem;
+        margin-block-end: -10px;
+        padding: 0px 2px !important;
+    }
+
+    .live-match-schedule {
+        margin-top: 25px;
+    }
+
+    .live-match-time {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 250px) {
+    
+}
