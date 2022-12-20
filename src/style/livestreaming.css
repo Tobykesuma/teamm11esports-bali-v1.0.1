@@ -50,113 +50,57 @@
      font-weight: 700;
 }
 
-.live-match-box2 {
-    height: auto !important;
-    width: 1980px !important;
-}
 
 
 /* BreakPoints */
 
-@media only screen and (min-width: 768px){
-    .live-match-box2 {
-        height: 395px !important;
-        width: 675px !important;
-    }
-
-    .live-match-box {
-        right: 0%;
-        margin-right: 0;
-    }
-
-}
-
-@media only screen and (min-width: 600px) {
-    /* .live-match-box2 {
-        height: 205px !important;
-        width: 345px !important;
-    } */
-
-    .live-match-box {
-        margin-right: 10px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10px;
-    }
-}
-
-
-@media only screen and (max-width: 260px) {
-    .live-match-box2 {
-        height: 120px !important;
-        width: 215px !important;
-    }
-}
-
-@media only screen and (max-width: 575.98px) {
-    .live-match-box2 {
-        height: 210px !important;
-        width: 345px !important;
-    }
-
-    .live-match-box {
-        margin-right: 10px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10px;
-    }
-}
-
-@media screen and (min-width: 319px) {
+@media screen and (max-width: 320px) {
     .live-match-box2 {
         width: 275px !important;
-        height: 155px !important;
+        height: 170px !important;
     }
 }
 
-@media screen and (min-width: 374.95px) {
+@media screen and (max-width: 375px) {
     .live-match-box2 {
-        height: 220px !important;
-        width: 330px !important;
+        width: 350px !important;
+        height: 185px !important;
+    }
+
+    .live-match-box {
+        margin-right: 0px;
     }
 }
 
-@media screen and (min-width: 390px){
+@media screen and (max-width: 400px) {
     .live-match-box2 {
-        width: 345px !important;
-        height: 200px !important;
+        width: 365px;
+        height: 205px;
     }
-} 
 
-@media screen and (min-width: 414px) {
-    .live-match-box2 {
-        height: 220px !important;
-        width: 370px !important;
+    .live-match-box {
+        margin-right: 0px;
     }
 }
 
-
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 425px) {
     .live-match-box2 {
-        height: 510px !important;
-        width: 915px !important;
+        
     }
 }
 
 
 
-@media screen and (max-width: 1439){
+@media screen and (min-width: 1400px) {
     .live-match-box2 {
+        height: 690px !important;
         width: 1275px !important;
-        height: 720px !important;
     }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (max-width: 576px) {
     .live-match-box2 {
-        width: 1275px !important;
-        height: 725px !important;
+        width: auto;
+        height: auto;
     }
-}
+} */
