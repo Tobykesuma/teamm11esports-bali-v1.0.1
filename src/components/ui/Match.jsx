@@ -5,6 +5,7 @@ import {
     Col,
  } from 'reactstrap'
 import imageData from '../../data/imageData'
+import MatchesLogo from '../../data/MatchesLogoTeam'
 import '../../style/match.css'
 
 
@@ -21,13 +22,13 @@ const Match = () => {
                   <p className='live-match-subtext'>
                   Upcoming Live Matches
                   </p>
-                  <h2 className='live-match-schedule'>21 DECEMBER 2022 </h2>
+                  <h2 className='live-match-schedule'>23 DECEMBER 2022 </h2>
                   <h2 className='live-match-time'>
-                    06:00 CET
+                    07:00 CET
                   </h2>
                 </div>
                 <div className='match-teams teams-logo-2' >
-                  <img src={imageData.EnemyLogo} className='w-100' alt='' style={{width: 406, height: 277}} />
+                  <img src={MatchesLogo.XersiaLogo} className='w-100' alt='' style={{width: 406, height: 277}} />
                 </div>
                 
             </div>

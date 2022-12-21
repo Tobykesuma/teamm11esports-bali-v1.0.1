@@ -10,7 +10,8 @@ import DefaultLogoMLBB from '../assets/2022/matches/mobile-legend-logo.webp'
 
 // Enemy Logo //
 import ReaperLogo from '../assets/2022/matches/reaper.png'
-
+import XersiaLogo from '../assets/2022/matches/xerxia-logo.png'
+import SpawnLogo from '../assets/2022/matches/496-spawn.png'
 
 // Tournament Logo Ongoing //
 import WSLLogo from '../assets/2022/matches/WSL-Logo.png'
@@ -21,6 +22,8 @@ const MatchesLogo = {
     DefaultLogoDota,
     DefaultLogoMLBB,
     ReaperLogo,
+    SpawnLogo,
+    XersiaLogo,
     LadiesHomeLogo,
     WSLLogo,
     ESLLeagueLogo
