@@ -44,7 +44,7 @@ const LiveStreaming = () => {
                         Watch Live <span className='span'>Match</span>
                     </h2>
                     <div className='live-match-box'>
-                    <iframe playing='true' width="1275" height="690" src="https://www.youtube.com/embed/7_HIR5wFEng" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" channel='youtube' origin='https://www.youtube.com' className='live-match-box2' loading="lazy" allowFullScreen autoPlay={true} config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
+                    <iframe autoPlay={true} playing='true' width="1275" height="690" src="https://www.youtube.com/embed/7_HIR5wFEng"  title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" channel='youtube' origin='https://www.youtube.com' className='live-match-box2' loading="lazy" allowFullScreen  config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
                     </iframe>
                         
                     

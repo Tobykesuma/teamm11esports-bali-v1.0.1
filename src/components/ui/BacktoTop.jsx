@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../../style/backtotop.css'
 import {MdOutlineArrowDropUp} from 'react-icons/md'
+import { Link } from 'react-router-dom';
 
 function BacktoTop() {
     const [visible, setVisible] = useState(false);
@@ -9,9 +10,9 @@ function BacktoTop() {
     });
   return (
     <div className='back-to-top'>
-        <a href='#' className={`${visible ? 'scroll-block' : 'scroll-none'}`}>
+        <Link to='/#' className={`${visible ? 'scroll-block' : 'scroll-none'}`}>
             <MdOutlineArrowDropUp />
-        </a>
+        </Link>
     </div>
   )
 }

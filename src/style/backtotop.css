@@ -29,18 +29,56 @@
 
 /* BreakPoints */
 
+@media screen and (max-width: 320px) {
+    .back-to-top {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .back-to-top {
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .back-to-top {
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .back-to-top {
+        right: 15px;
+    }
+}
+
 @media only screen and (max-width: 992px){
     .back-to-top svg {
         font-size: 40px;
-    }
-
-    
+    }   
 }
 
-
-@media only screen and (min-width: 260px) {
+@media only screen and (min-width: 1025px){
     .back-to-top {
-        right: 15px;
-
+        right: 160px;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .back-to-top {
+        right: 90px;
+    }
+}
+
+/* @media screen and (max-width: 1024px) {
+    .back-to-top {
+        right: 160px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .back-to-top {
+        right: 70px;
+    }
+} */

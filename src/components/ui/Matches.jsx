@@ -16,8 +16,7 @@ const Matches = () => {
                 <h1 className='match-title'>
                     SCHEDULE <span className='span'>TEAMS</span>
                 </h1>
-            </section>
-              
+                </section>
                 <div className='match'>
                     <div className='match-header'>
                         <div className='match-status'>Upcoming</div>

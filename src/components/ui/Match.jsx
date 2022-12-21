@@ -14,7 +14,7 @@ const Match = () => {
       <Row>
         <Col>
           <div className='live-match-teams'>
-            <div className='match-teams teams-logo' style={{width: 406, height: 277}}>
+            <div className='match-teams teams-logo'>
               <img src={imageData.MainLogoBlack} className='w-100' alt='' style={{width: 406, height: 277}} />
               </div>
                 <div className='live-match-details'>
@@ -26,7 +26,7 @@ const Match = () => {
                     06:00 CET
                   </h2>
                 </div>
-                <div className='match-teams teams-logo' style={{width: 406, height: 277}}>
+                <div className='match-teams teams-logo-2' >
                   <img src={imageData.EnemyLogo} className='w-100' alt='' style={{width: 406, height: 277}} />
                 </div>
                 

@@ -69,10 +69,10 @@
 
 /* BreakPoints */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .news .card-banner img {
-        width: 335px !important;
-        height: 300px !important;
+        width: 335px;
+        height: 300px;
         margin-left: -15px;
     }
 
@@ -100,10 +100,11 @@
     }
 
     .news-list {
-        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
-@media only screen and (min-width: 260px){
+
+@media screen and (min-width: 260px){
     .news-list {
         grid-template-columns:repeat(1, 1fr);
         justify-content: center;
@@ -113,12 +114,12 @@
     }
 
     .news .news-card img {
-        width: 300px !important;
-        height: 300px !important;
+        width: 300px;
+        height: 300px ;
     }
 
     .news .card-banner img {
-        width: 300px !important;
+        width: 300px ;
         height: auto;
     }
 
@@ -158,8 +159,83 @@
     
 }
 
-@media only screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
+    p.section-subtext-news {
+        font-size: 14px;
+        margin-block: 50px 40px;
+        text-align: justify;
+    }
 
+    .section-title2 {
+        margin-block-end: 50px;
+    }
+
+    .news-card {
+        margin-left: -5px !important;
+    }
 }
 
+@media screen and (max-width: 375px){
+    .news .card-banner img {
+        width: 325px !important ;
+        height: 325px  !important;
+    }
+
+    .news-card-content {
+        margin-left: -10px;
+    }
+
+    .news-card .card-banner {
+        margin-block-end: 20px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .news-card {
+        margin-left: -20px !important;
+    }
+
+    .news .card-banner img {
+        width: 375px ;
+        height: 375px ;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    p.section-subtext-news {
+        font-size: 22px;
+    }
+
+    .news .card-banner img {
+        width: 390px !important;
+        height: 290px !important ;
+       
+    }
+
+    .news .card-banner img:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease-in;
+    }
+
+    .news-list {
+        display: flex;
+        gap: 50px;
+    }
+
+    .news-card {
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .news-card .card-meta-list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .news-card {
+        margin-left: 0px !important;
+    }
+}
 
