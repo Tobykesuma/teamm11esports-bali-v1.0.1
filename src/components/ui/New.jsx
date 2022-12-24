@@ -27,7 +27,45 @@ const New = () => {
                     </p>
 
                     <ul className='news-list'>
-                    <li>
+
+
+                        <li>
+                            <div className='news-card'>
+                                <div className='card-banner'>
+                                    <img src={imageData.NewsImage04} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
+
+                                <div className='news-card-content'>
+                                    <ul className='card-meta-list'>
+                                        <li className='card-meta-item'>
+                                            <MdAccountCircle />
+                                            <a href='' className='item-text'>Admin</a>
+                                        </li>
+
+                                        <li className='card-meta-item'>
+                                            <MdDateRange />
+                                            <time dateTime='2022-11-27' className='item-text'>December 23, 2022</time>
+                                        </li>
+                                    </ul>
+
+                                    <h3 className='card-title'>
+                                    Set Treant Baru Mirip DeadWoon Hon
+                                    </h3>
+
+                                    <p className='card-text'>
+                                    Bundle Collector's Cache 2022 bagian kedua udah rilis lho gaes. Dari belasan set, mata mimin langsung fokus ke set Treant yang cukup mirip dengan Deadwood di Heroes of Newerth.
+                                    </p>
+                                    <a href='https://www.youtube.com/channel/UCvCloNPASmV_DGmgiE5gmVw/community?lb=UgkxsXqsv21XYcx6oiq_KYOdQ3k1ieeTy4NN' className='card-link'>
+                                        <span className='span'>Read More</span>
+                                        <AiOutlineCaretRight />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                         <li>
                             <div className='news-card'>
                                 <div className='card-banner'>
                                     <img src={imageData.NewsImage03} alt='' className='img-cover' style={{width: 390, height: 290}} />
@@ -94,43 +132,7 @@ const New = () => {
                                 </div>
                             </div>
                         </li>
-
-                        <li>
-                            <div className='news-card'>
-                                <div className='card-banner'>
-                                    <img src={imageData.NewsImage01} alt='' className='img-cover' style={{width: 390, height: 290}} />
-                                </div>
-
-                                <div className='news-card-content'>
-                                    <ul className='card-meta-list'>
-                                        <li className='card-meta-item'>
-                                            <MdAccountCircle />
-                                            <a href='' className='item-text'>Admin</a>
-                                        </li>
-
-                                        <li className='card-meta-item'>
-                                            <MdDateRange />
-                                            <time dateTime='2022-11-27' className='item-text'>November 11, 2022</time>
-                                        </li>
-                                    </ul>
-
-                                    <h3 className='card-title'>
-                                    Valorant Senjata Baru ?
-                                    </h3>
-
-                                    <p className='card-text'>
-                                     Apakah Valorant saat ini butuh senjata baru?? Pertanyaan ini kadang muncul dikepala mimin, ngelihat yang diupdate skin mulu yak, pengen juga dong ngeliat yang baru lainnya gitu. 
-                                    </p>
-                                    <a href='https://www.youtube.com/channel/UCvCloNPASmV_DGmgiE5gmVw/community?lb=UgkxMjBW9aU_bchO4xCaAT7cLBs-hHd8xrz0' className='card-link'>
-                                        <span className='span'>Read More</span>
-                                        <AiOutlineCaretRight />
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-
                         
-
 
                     </ul>
                 </Col>

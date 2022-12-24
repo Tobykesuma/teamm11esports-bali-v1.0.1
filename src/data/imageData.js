@@ -27,6 +27,9 @@ import Talent01 from '../assets/2022/talent/team-member-1.png';
 import NewsImage01 from '../assets/2022/blogs/news01.webp'
 import NewsImage02 from '../assets/2022/blogs/new02.webp'
 import NewsImage03 from '../assets/2022/blogs/new03.jpeg'
+import NewsImage04 from '../assets/2022/blogs/new04.jpeg'
+
+
 
 const ImageDataImage = {
     MainLogo,
@@ -41,6 +44,7 @@ const ImageDataImage = {
     NewsImage01,
     NewsImage02,
     NewsImage03,
+    NewsImage04,
     MLBBBg,
     MainLogoBlack,
     Talent01,
