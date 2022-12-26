@@ -28,7 +28,7 @@ import NewsImage01 from '../assets/2022/blogs/news01.webp'
 import NewsImage02 from '../assets/2022/blogs/new02.webp'
 import NewsImage03 from '../assets/2022/blogs/new03.jpeg'
 import NewsImage04 from '../assets/2022/blogs/new04.jpeg'
-
+import NewsImage05 from '../assets/2022/blogs/news05.jpeg'
 
 
 const ImageDataImage = {
@@ -45,6 +45,7 @@ const ImageDataImage = {
     NewsImage02,
     NewsImage03,
     NewsImage04,
+    NewsImage05,
     MLBBBg,
     MainLogoBlack,
     Talent01,

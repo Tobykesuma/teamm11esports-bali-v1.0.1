@@ -12,6 +12,7 @@ import DefaultLogoMLBB from '../assets/2022/matches/mobile-legend-logo.webp'
 import ReaperLogo from '../assets/2022/matches/reaper.png'
 import XersiaLogo from '../assets/2022/matches/xerxia-logo.png'
 import SpawnLogo from '../assets/2022/matches/496-spawn.png'
+import TsunamiLogo from '../assets/2022/matches/tsunami.png'
 
 // Tournament Logo Ongoing //
 import WSLLogo from '../assets/2022/matches/WSL-Logo.png'
@@ -26,6 +27,7 @@ const MatchesLogo = {
     XersiaLogo,
     LadiesHomeLogo,
     WSLLogo,
+    TsunamiLogo,
     ESLLeagueLogo
 
 

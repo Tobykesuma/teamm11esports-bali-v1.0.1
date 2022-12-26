@@ -28,6 +28,40 @@ const New = () => {
 
                     <ul className='news-list'>
 
+                    <li>
+                            <div className='news-card'>
+                                <div className='card-banner'>
+                                    <img src={imageData.NewsImage05} alt='' className='img-cover' style={{width: 390, height: 290}} />
+                                </div>
+
+                                <div className='news-card-content'>
+                                    <ul className='card-meta-list'>
+                                        <li className='card-meta-item'>
+                                            <MdAccountCircle />
+                                            <a href='' className='item-text'>Admin</a>
+                                        </li>
+
+                                        <li className='card-meta-item'>
+                                            <MdDateRange />
+                                            <time dateTime='2022-11-27' className='item-text'>December 25, 2022</time>
+                                        </li>
+                                    </ul>
+
+                                    <h3 className='card-title'>
+                                    MERRY CHRISTMAS & HAPPY NEWYEAR 
+                                    </h3>
+
+                                    <p className='card-text'>
+                                    Selamat Natal dan Tahun Baru!. Semoga akhir tahun ini dipenuhi dengan kesehatan, kebahagiaan, dan kedamaian. Selamat liburan juga, saatnya lupakan penat, dan nikmati hiburan akhir tahun.
+                                    </p>
+                                    <a href='https://www.youtube.com/post/UgkxVYvhzwx8X5z1FHzpyC1WMtp7zcy3DMXD' className='card-link'>
+                                        <span className='span'>Read More</span>
+                                        <AiOutlineCaretRight />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
 
                         <li>
                             <div className='news-card'>
@@ -99,39 +133,7 @@ const New = () => {
                             </div>
                         </li>
 
-                        <li>
-                            <div className='news-card'>
-                                <div className='card-banner img-holder'>
-                                    <img src={imageData.NewsImage02} alt='' className='img-cover' style={{width: 390, height: 290}} />
-                                </div>
-
-                                <div className='news-card-content'>
-                                    <ul className='card-meta-list'>
-                                        <li className='card-meta-item'>
-                                            <MdAccountCircle />
-                                            <a href='' className='item-text'>Admin</a>
-                                        </li>
-
-                                        <li className='card-meta-item'>
-                                            <MdDateRange />
-                                            <time dateTime='2022-11-27' className='item-text'>November 11, 2022</time>
-                                        </li>
-                                    </ul>
-
-                                    <h3 className='card-title'>
-                                    New Bundle Valorant
-                                    </h3>
-
-                                    <p className='card-text'>
-                                    Bundle baru Valorant udah hadir, kali ini temanya berenang dengan hiu, namanya The Abyssal Bundle. Selain itu diumumin juga Night Market berikutnya akan hadir tanggal 7 Desember nanti,
-                                    </p>
-                                    <a href='https://www.youtube.com/channel/UCvCloNPASmV_DGmgiE5gmVw/community?lb=UgkxYCNozWBJa2m8v4IWRs80iIizE8fc7Ubl' className='card-link'>
-                                        <span className='span'>Read More</span>
-                                        <AiOutlineCaretRight />
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
+                        
                         
 
                     </ul>

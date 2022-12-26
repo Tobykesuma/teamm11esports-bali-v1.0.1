@@ -18,67 +18,7 @@ const Matches = () => {
                 </h1>
                 </section>
 
-                <div className='match'>
-                    <div className='match-header'>
-                        <div className='match-status'>Upcoming</div>
-                        <div className='match-tournament'>
-                            <a href='https://www.gosugamers.net/dota2/tournaments/55051-esea-league'>
-                            <img src={MatchesLogo.ESLLeagueLogo} alt='' />
-                            ESEA LEAGUE
-                            {/* <img src={MatchesLogo.DefaultLogoDota} alt='' /> */}
-                            </a>
-                        </div>
-                        <div className='match-actions'>
-                            <button className='match-icons'>
-                                <a href='https://www.youtube.com/@TeamM11ESports/streams    '>
-                                    <AiFillYoutube />
-                                </a>
-                            </button>
-                            <button className='match-icons'>
-                                <a href='https://www.gosugamers.net/dota2/streams/365885-yuhengtv'>
-                                    <FiTwitch />
-                                </a>
-                            </button>
-                        </div>
-                        </div>
-
-                        <div className='match-content'>
-                            <div className='match-column'>
-                                <div className='matches-team team--home'>
-                                    <div className='match-logo-team'>
-                                        <img src={MatchesLogo.HomeLogo} alt='' />
-                                    </div>
-                                    <h2 className='team-name'>Team M11</h2>
-                                </div>
-                            </div>
-                            <div className='match-column'>
-                                <div className='match-details'>
-                                    <div className='match-date'>
-                                        25 DECEMBER 2022 <br></br> 
-                                        <strong>08:00 CET</strong>
-                                    </div>
-                                    <div className='match-score'>
-                                        <span className='match-score-number'> 0 </span>
-                                        <span className='match-score-divide'> : </span>
-                                        <span className='match-score-number'> 0 </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='match-column'>
-                                <div className='matches-team team--away'>
-                                    <div className='match-logo-team'>
-                                        <img src={MatchesLogo.DefaultLogoDota} alt='' />
-                                    </div>
-                                    <h2 className='team-name'>Outlast</h2>
-                                </div>
-                            </div>
-                            <button className='match-live-streams'>
-                                <a href='https://www.youtube.com/@TeamM11ESports/streams' target='__blank'>
-                                    <AiFillYoutube />
-                                </a>
-                            </button>
-                        </div>
-                    </div>
+                
 
                 <div className='match'>
                     <div className='match-header'>
@@ -178,7 +118,7 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='match-details'>
                                     <div className='match-date'>
-                                        5 JANUARY 2023 <br></br> 
+                                        29 DECEMBER 2023 <br></br> 
                                         <strong>07:00 CET</strong>
                                     </div>
                                     <div className='match-score'>
@@ -191,9 +131,71 @@ const Matches = () => {
                             <div className='match-column'>
                                 <div className='matches-team team--away'>
                                     <div className='match-logo-team'>
-                                        <img src={MatchesLogo.XersiaLogo} alt='' />
+                                        <img src={MatchesLogo.TsunamiLogo} alt='' />
                                     </div>
-                                    <h2 className='team-name'>XERXIA</h2>
+                                    <h2 className='team-name'>TSUNAMI</h2>
+                                </div>
+                            </div>
+                            <button className='match-live-streams'>
+                                <a href='https://www.youtube.com/@TeamM11ESports/streams' target='__blank'>
+                                    <AiFillYoutube />
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className='match'>
+                    <div className='match-header'>
+                        <div className='match-status'>Result</div>
+                        <div className='match-tournament'>
+                            <a href='https://www.gosugamers.net/dota2/tournaments/55051-esea-league'>
+                            <img src={MatchesLogo.ESLLeagueLogo} alt='' />
+                            ESEA LEAGUE
+                            {/* <img src={MatchesLogo.DefaultLogoDota} alt='' /> */}
+                            </a>
+                        </div>
+                        <div className='match-actions'>
+                            <button className='match-icons'>
+                                <a href='https://www.youtube.com/@TeamM11ESports/streams    '>
+                                    <AiFillYoutube />
+                                </a>
+                            </button>
+                            <button className='match-icons'>
+                                <a href='https://www.gosugamers.net/dota2/streams/365885-yuhengtv'>
+                                    <FiTwitch />
+                                </a>
+                            </button>
+                        </div>
+                        </div>
+
+                        <div className='match-content'>
+                            <div className='match-column'>
+                                <div className='matches-team team--home'>
+                                    <div className='match-logo-team'>
+                                        <img src={MatchesLogo.HomeLogo} alt='' />
+                                    </div>
+                                    <h2 className='team-name'>Team M11</h2>
+                                </div>
+                            </div>
+                            <div className='match-column'>
+                                <div className='match-details'>
+                                    <div className='match-date'>
+                                        25 DECEMBER 2022 <br></br> 
+                                        <strong>08:00 CET</strong>
+                                    </div>
+                                    <div className='match-score'>
+                                        <span className='match-score-number'> 2 </span>
+                                        <span className='match-score-divide'> : </span>
+                                        <span className='match-score-number'> 1 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='match-column'>
+                                <div className='matches-team team--away'>
+                                    <div className='match-logo-team'>
+                                        <img src={MatchesLogo.DefaultLogoDota} alt='' />
+                                    </div>
+                                    <h2 className='team-name'>Outlast</h2>
                                 </div>
                             </div>
                             <button className='match-live-streams'>
