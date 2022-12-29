@@ -25,6 +25,9 @@ export class ModalLive extends Component {
                 <div>
                     <ModalVideo 
                         channel='youtube'
+                        youtube={{
+                            autoplay: 1,
+                        }}
                         isOpen={this.state.isOpen}
                         videoId="7_HIR5wFEng"
                         onClose={() => this.setState({

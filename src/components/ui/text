@@ -1,0 +1,167 @@
+
+
+                    <ul className='has-scrollbar'>
+                        <li className='scrollbar-item'>
+                            <div className='teams-game-card'>
+                                <div className='card-banner' style={{width: 250, height: 400}}>
+                                    <Link to='/teams/dota-2'>
+                                    <img src={imageData.Dota2Bg} style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
+                                    </Link>
+                                    
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/dota-2'>
+                                            DOTA 2
+                                        </Link>
+                                    </h3>
+                                </div>
+                                {/* <div className='card-content'>
+                                    <h3>
+                                    <Link to='/teams/dota-2' className='card-content-title'>DOTA 2</Link>
+                                    </h3>
+                                
+
+                                    <span className='card-meta'>
+                                        <span className='span'>
+                                            DOTA 2
+                                        </span>
+                                    </span>
+                                </div>
+
+                                <div className='card-content-overlay'>
+                                    <img src={imageData.Dota2Logo} style={{width: 70}}className='card-icon' />
+                                    <h3>
+                                        <Link to='/' className='card-content-title'>
+                                           DOTA 2 
+                                        </Link>
+                                    </h3>
+                                </div> */}
+
+                            </div>
+                        </li>
+
+                        <li className='scrollbar-item'>
+                            <div className='teams-game-card'>
+                                <div className='card-banner' style={{width: 250, height: 400}}>
+                                    <Link to='/teams/pubgm'>
+                                    <img src={imageData.PUBGMBg } style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
+                                    </Link>
+                                    
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/pubgm'>
+                                            PUBG MOBILE
+                                        </Link>
+                                    </h3>
+                                </div>
+                                {/* <div className='card-content'>
+                                    <h3>
+                                    <Link to='/teams/dota-2' className='card-content-title'>PUBG Mobile</Link>
+                                    </h3>
+
+                                    <span className='card-meta'>
+                                        <span className='span'>
+                                            DOTA 2
+                                        </span>
+                                    </span>
+                                </div>
+
+                                <div className='card-content-overlay'>
+                                    <img src={imageData.Dota2Logo} style={{width: 70}} className='card-icon' />
+                                    <h3>
+                                        <Link to='/' className='card-content-title'>
+                                           DOTA 2 
+                                        </Link>
+                                    </h3>
+                                </div> */}
+
+                            </div>
+                        </li>
+
+                        <li className='scrollbar-item'>
+                            <div className='teams-game-card'>
+                                <div className='card-banner' style={{width: 250, height: 400}}>
+                                    <Link to='/teams/mobile-legend'>
+                                    <img src={imageData.MLBBBg} style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
+                                    </Link>
+                                    
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/mobile-legend'>
+                                            MLBB
+                                        </Link>
+                                    </h3>
+                                </div>
+                                {/* <div className='card-content'>
+                                    <h3>
+                                    <Link to='/teams/dota-2' className='card-content-title'>Dota 2</Link>
+                                    </h3>
+
+                                    <span className='card-meta'>
+                                        <span className='span'>
+                                            DOTA 2
+                                        </span>
+                                    </span>
+                                </div>
+
+                                <div className='card-content-overlay'>
+                                    <img src={imageData.Dota2Logo} style={{width: 70}} className='card-icon' />
+                                    <h3>
+                                        <Link to='/' className='card-content-title'>
+                                           DOTA 2 
+                                        </Link>
+                                    </h3>
+                                </div> */}
+
+                            </div>
+                        </li>
+
+                        <li className='scrollbar-item'>
+                            <div className='teams-game-card'>
+                                <div className='card-banner' style={{width: 250, height: 400}}>
+                                    <Link to='/teams/valorant'>
+                                    <img src={imageData.ValorantBg} style={{width: 250, height: 400}} className='img-holder img-cover game-imagebg'/>
+                                    </Link>
+                                    
+                                </div>
+
+                                <div className='card-content'>
+                                    <h3 className='card-content-title'>
+                                        <Link to='/teams/valorant'>
+                                            VALORANT
+                                        </Link>
+                                    </h3>
+                                </div>
+                                {/* <div className='card-content'>
+                                    <h3>
+                                    <Link to='/teams/dota-2' className='card-content-title'>Dota 2</Link>
+                                    </h3>
+
+                                    <span className='card-meta'>
+                                        <span className='span'>
+                                            DOTA 2
+                                        </span>
+                                    </span>
+                                </div> */}
+
+                                {/* <div className='card-content-overlay'>
+                                    <img src={imageData.Dota2Logo} style={{width: 70}} className='card-icon' />
+                                    <h3>
+                                        <Link to='/' className='card-content-title'>
+                                           DOTA 2 
+                                        </Link>
+                                    </h3>
+                                </div> */}
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    .background : transparent linear-gradient(0deg, #65199400 0%, #2573CE 51%, #65199400 100%) 0% 0% no-repeat padding-box

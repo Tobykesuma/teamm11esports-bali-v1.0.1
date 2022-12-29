@@ -1,10 +1,16 @@
 .section-teams {
     background-color: var(--cultured-2);
-    background-image: url('../assets/2022/images/images-bg.webp');
+    /* background-image: url('../assets/2022/images/images-bg.webp'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-block-end: 90px;
     background-attachment: fixed;
+}
+
+.img-gradient-teams {
+    background-image: linear-gradient(#e66465, #9198e5);
+    opacity: 0.9;
 }
 
 .section-teams .section-title h2 {
@@ -13,147 +19,87 @@
 }
 
 .section-teams .has-scrollbar {
-    gap: 30px;
-    overflow-x: hidden;
-    align-items: center;
-    justify-content: center;
+    gap: 5;
 }
 
-.game-imagebg {
-    border-radius: 20px;
+.section-teams .has-scrollbar {
+    margin-inline: -15px;
+    padding-inline: 15px;
+    scroll-padding-inline-start: 15px;
 }
 
-.teams-game-card {
+.featured-game-card {
     position: relative;
-    box-shadow: var(--shadow-2);
-    border-radius: 20px;
 }
 
-.teams-game-card :is(.card-content, .card-content-overlay) {
+.featured-game-card :is(.card-content, .card-content-overlay) {
     position: absolute;
 }
 
-.teams-game-card .card-content {
-    bottom: 35%;
+.featured-game-card .card-content {
+    bottom: 0;
     left: 0;
     right: 0;
+    justify-content: center;
     text-align: center;
+    padding: 30px 35px;
     transition: var(--transition);
-    padding: 35px 25px;
+}
+
+.featured-game-card .card-content-text {
     color: white;
-    overflow: hidden;
-}
-
-.teams-game-card .card-content-title {
-    margin-block-end: 5px;
-}
-
-.teams-game-card .card-meta {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.teams-game-card .card-content .card-meta {
-    color: var(--platinum);
-}
-
-.teams-game-card .card-content .card-content-title {
-    color: white;
+    font-size: 30px;
     font-weight: 600;
-    font-size: 2rem;
-    font-family: var(--font-Rubik-Mono);
+    top: 50%;
 }
 
-.teams-game-card .card-content .card-content-title:hover {
-    color: var(--marigold);
-    font-size: 2rem;
-}
-
-.teams-game-card .card-content .card-content-title::before {
-    content: '';
-    position: absolute;
-    display: flex;
-}
-
-.teams-game-card .card-content .card-icon {
-    color: var(--marigold);
-    font-size: 20px;
-}
-
-.teams-game-card .card-icon {
-    margin-block-end: 20px;
-}
-
-
-/* .teams-game-card:is(:hover, :focus-within) .card-content {
-    opacity: 0;
-} */
-
-.teams-game-card:is(:hover, :focus-within) .card-content-overlay {
-    opacity: 1;
-}
-
-
-
-.teams-card-content .card-content-overlay {
+.featured-game-card .card-content-overlay {
     inset: 0;
     background-color: var(--marigold_75);
     display: flex;
-    flex-direction: column;
+    top: -495%;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: var(--transition);
+    /* transition: var(--transition); */
+    cursor: pointer;
 }
 
-.section-teams .section-subtext {
-    color: white;
+.featured-game-card .card-icon {
+    font-size: 15px;
+}
+
+
+.card-content-text {
     align-items: center;
-    max-width: 83ch;
-    padding-bottom: 30px;
+    right: 20%;
 }
 
 
-
-.teams-card .card-title-name {
+.featured-game-card .card-content-text {
     margin-block-end: 5px;
 }
 
-.teams-card .card-meta {
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 500;
-    text-transform: uppercase;
+.featured-game-card .card-icon {
+    margin-block-end: 5px;
     display: flex;
-    align-items: center;
-    gap: 4px;
 }
 
-.teams-card .teams-card-content .card-meta {
-    color: var(--platinum);
+.featured-game-card .card-content-overlay .card-content-text {
+    color: var(--cultured-2);
 }
 
-
-
-/* BreakPoints */
-
-@media only screen and (max-width: 768px) {
-    .section-teams .has-scrollbar {
-        overflow-x: auto;
-        display: grid;
-        margin-left: -35px;
-    }
-
-    .section-teams .scrollbar-item {
-        min-width: 25%;
-        gap: 15px;
-        padding-top: 0;
-    }
-
-    
+.featured-game-card:is(:hover) .card-content {
+    opacity: 0;
 }
+
+.featured-game-card:is(:hover, :active) .card-content-overlay {
+    opacity: 2;
+}
+
+.featured-game-card:hover,
+.card-content-overlay:hover {
+    opacity: 2;
+    transition: all .2s ease-in-out;
+}
+
