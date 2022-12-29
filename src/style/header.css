@@ -25,7 +25,7 @@
 }
 
 .header-top .navbar-logo img {
-    width: 160px !important;
+    width: 120px !important;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -38,7 +38,7 @@
     list-style: none;
     font-size: 25px;
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
 }
 

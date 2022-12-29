@@ -1,0 +1,29 @@
+.play-btn-live {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--marigold);
+    font-size: 150px;
+    cursor: pointer;
+    display: flex;
+    stroke: var(--marigold);
+}
+
+.play-btn-live path {
+    font-size: 60px;
+    color: var(--marigold);
+}
+
+.play-btn-live path:hover {
+    color: var(--marigold);
+    stroke: var(--marigold);
+}
+
+/* Modal Video */
+
+@media screen and (max-width: 768px) {
+    .play-btn-live {
+        font-size: 55px;
+    }
+}

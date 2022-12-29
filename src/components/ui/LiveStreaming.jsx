@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import {
     Container,
     Row,
@@ -6,8 +6,8 @@ import {
 } from 'reactstrap'
 import '../../style/livestreaming.css'
 import Match from './Match'
-
-// import ModalVideo from 'react-modal-video'
+import ModalLive from '../modal/ModalLive'
+import ThumbnailYoutube from '../../data/ThumbnailYoutube'
 
 
 const LiveStreaming = () => {
@@ -44,9 +44,8 @@ const LiveStreaming = () => {
                         Watch Live <span className='span'>Match</span>
                     </h2>
                     <div className='live-match-box'>
-                    <iframe autoPlay={true} playing='true' width="1275" height="690" src="https://www.youtube.com/embed/7_HIR5wFEng"  title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" channel='youtube' origin='https://www.youtube.com' className='live-match-box2' loading="lazy" allowFullScreen  config={{youtube: {playerVars: {origin : 'https://www.youtube.com'}}}}>
-                    </iframe>
-                        
+                        <ModalLive />
+                         
                     
                     </div>
                     <Match />
